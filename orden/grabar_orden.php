@@ -48,7 +48,7 @@ $sql_empresa = "select razon_social as nombre, email_empresa,direccion  from $ta
 $con_empresa =  mysql_query($sql_empresa,$conexion);	
 $datos_empresa  = mysql_fetch_assoc($con_empresa);
 $nombre_empresa = $datos_empresa['nombre']; 
-$email_empresa = $datos_empresa['email']; 
+$email_empresa = $datos_empresa['email_empresa']; 
 $direccion_empresa = $datos_empresa['direccion']; 
 $body = '';
 
@@ -83,7 +83,8 @@ TRABAJO A REALIZAR : '.$_REQUEST['descripcion'].'
 Taller  
 E-mail:  '.$email_empresa.'
 Direccion: '.$direccion_empresa;
-
+echo '<br>'.$body;
+die();
 include('enviar_correo.php');
 //////////////////////
 $consulta_grabar = mysql_query($sql_grabar_orden,$conexion); 
