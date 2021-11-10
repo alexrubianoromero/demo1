@@ -83,8 +83,6 @@ TRABAJO A REALIZAR : '.$_REQUEST['descripcion'].'
 Taller  
 E-mail:  '.$email_empresa.'
 Direccion: '.$direccion_empresa;
-echo '<br>'.$body;
-die();
 include('enviar_correo.php');
 //////////////////////
 $consulta_grabar = mysql_query($sql_grabar_orden,$conexion); 
