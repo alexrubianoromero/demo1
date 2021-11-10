@@ -1,0 +1,219 @@
+[17-Aug-2017 22:32:54 America/Bogota] PHP Warning:  Illegal string offset 'id_orden' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/factura_imprimir.php on line 176
+[17-Aug-2017 22:32:54 America/Bogota] PHP Warning:  Illegal string offset 'razon_social' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/factura_imprimir.php on line 197
+[17-Aug-2017 22:32:54 America/Bogota] PHP Warning:  Illegal string offset 'identi' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/factura_imprimir.php on line 197
+[17-Aug-2017 22:32:54 America/Bogota] PHP Warning:  Illegal string offset 'resolucion' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/factura_imprimir.php on line 198
+[17-Aug-2017 22:32:54 America/Bogota] PHP Warning:  Illegal string offset 'regimen' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/factura_imprimir.php on line 217
+[17-Aug-2017 22:32:54 America/Bogota] PHP Warning:  Illegal string offset 'recibe_tarjetas' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/factura_imprimir.php on line 227
+[17-Aug-2017 22:32:54 America/Bogota] PHP Warning:  Illegal string offset 'direccion' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/factura_imprimir.php on line 273
+[17-Aug-2017 22:32:54 America/Bogota] PHP Warning:  Illegal string offset 'telefonos' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/factura_imprimir.php on line 273
+[17-Aug-2017 22:32:54 America/Bogota] PHP Warning:  Illegal string offset 'horario' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/factura_imprimir.php on line 281
+[17-Aug-2017 22:32:54 America/Bogota] PHP Warning:  Illegal string offset 'numero_factura' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/factura_imprimir.php on line 286
+[17-Aug-2017 22:32:54 America/Bogota] PHP Warning:  Illegal string offset 'email_empresa' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/factura_imprimir.php on line 292
+[17-Aug-2017 22:32:54 America/Bogota] PHP Warning:  Illegal string offset 'fecha_factura' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/factura_imprimir.php on line 295
+[17-Aug-2017 22:32:54 America/Bogota] PHP Warning:  Illegal string offset 'nombre' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/factura_imprimir.php on line 304
+[17-Aug-2017 22:32:54 America/Bogota] PHP Warning:  Illegal string offset 'identicli' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/factura_imprimir.php on line 306
+[17-Aug-2017 22:32:54 America/Bogota] PHP Warning:  Illegal string offset 'direccioncli' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/factura_imprimir.php on line 310
+[17-Aug-2017 22:32:54 America/Bogota] PHP Warning:  Illegal string offset 'telefonocli' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/factura_imprimir.php on line 312
+[17-Aug-2017 22:32:54 America/Bogota] PHP Warning:  Illegal string offset 'marca' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/factura_imprimir.php on line 320
+[17-Aug-2017 22:32:54 America/Bogota] PHP Warning:  Illegal string offset 'modelo' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/factura_imprimir.php on line 322
+[17-Aug-2017 22:32:54 America/Bogota] PHP Warning:  Illegal string offset 'color' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/factura_imprimir.php on line 322
+[17-Aug-2017 22:32:54 America/Bogota] PHP Warning:  Illegal string offset 'placa' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/factura_imprimir.php on line 324
+[17-Aug-2017 22:32:54 America/Bogota] PHP Warning:  Illegal string offset 'tipo' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/factura_imprimir.php on line 328
+[17-Aug-2017 22:32:54 America/Bogota] PHP Warning:  Illegal string offset 'kilometraje' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/factura_imprimir.php on line 330
+[17-Aug-2017 22:32:54 America/Bogota] PHP Warning:  Illegal string offset 'kilometraje_cambio' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/factura_imprimir.php on line 332
+[17-Aug-2017 22:32:54 America/Bogota] PHP Warning:  Illegal string offset 'id_orden' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/factura_imprimir.php on line 361
+[17-Aug-2017 22:32:54 America/Bogota] PHP Warning:  Illegal string offset 'resolucion' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/factura_imprimir.php on line 361
+[17-Aug-2017 22:32:54 America/Bogota] PHP Warning:  Illegal string offset 'totalfac' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/factura_imprimir.php on line 377
+[17-Aug-2017 22:32:54 America/Bogota] PHP Warning:  Illegal string offset 'resolucion' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/factura_imprimir.php on line 389
+[17-Aug-2017 22:32:54 America/Bogota] PHP Warning:  Illegal string offset 'resolucion' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/factura_imprimir.php on line 403
+[17-Aug-2017 22:32:54 America/Bogota] PHP Warning:  Illegal string offset 'resolucion' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/factura_imprimir.php on line 422
+[17-Aug-2017 22:32:54 America/Bogota] PHP Warning:  Illegal string offset 'retefuentefac' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/factura_imprimir.php on line 435
+[17-Aug-2017 22:32:54 America/Bogota] PHP Warning:  number_format() expects parameter 1 to be double, string given in /home/alexrubi/public_html/taller_prueba_nomina/facturas/factura_imprimir.php on line 435
+[17-Aug-2017 22:32:54 America/Bogota] PHP Warning:  Illegal string offset 'totalfac' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/factura_imprimir.php on line 444
+[17-Aug-2017 22:32:54 America/Bogota] PHP Warning:  number_format() expects parameter 1 to be double, string given in /home/alexrubi/public_html/taller_prueba_nomina/facturas/factura_imprimir.php on line 444
+[19-Sep-2017 13:45:23 America/Bogota] PHP Warning:  Illegal string offset 'orden' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/orden_modificar.php on line 109
+[19-Sep-2017 13:45:23 America/Bogota] PHP Warning:  Illegal string offset 'identi' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/orden_modificar.php on line 114
+[19-Sep-2017 13:45:23 America/Bogota] PHP Warning:  Illegal string offset 'telefonos_empresa' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/orden_modificar.php on line 118
+[19-Sep-2017 13:45:23 America/Bogota] PHP Warning:  Illegal string offset 'direccion_empresa' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/orden_modificar.php on line 122
+[19-Sep-2017 13:45:23 America/Bogota] PHP Warning:  Illegal string offset 'fecha' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/orden_modificar.php on line 127
+[19-Sep-2017 13:45:23 America/Bogota] PHP Warning:  Illegal string offset 'marca' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/orden_modificar.php on line 129
+[19-Sep-2017 13:45:23 America/Bogota] PHP Warning:  Illegal string offset 'nombre' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/orden_modificar.php on line 133
+[19-Sep-2017 13:45:23 America/Bogota] PHP Warning:  Illegal string offset 'tipo' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/orden_modificar.php on line 135
+[19-Sep-2017 13:45:23 America/Bogota] PHP Warning:  Illegal string offset 'identi' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/orden_modificar.php on line 139
+[19-Sep-2017 13:45:23 America/Bogota] PHP Warning:  Illegal string offset 'modelo' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/orden_modificar.php on line 141
+[19-Sep-2017 13:45:23 America/Bogota] PHP Warning:  Illegal string offset 'direccion' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/orden_modificar.php on line 145
+[19-Sep-2017 13:45:23 America/Bogota] PHP Warning:  Illegal string offset 'placa' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/orden_modificar.php on line 147
+[19-Sep-2017 13:45:23 America/Bogota] PHP Warning:  Illegal string offset 'telefono' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/orden_modificar.php on line 151
+[19-Sep-2017 13:45:23 America/Bogota] PHP Warning:  Illegal string offset 'color' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/orden_modificar.php on line 153
+[19-Sep-2017 13:45:23 America/Bogota] PHP Warning:  Illegal string offset 'kilometraje' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/orden_modificar.php on line 159
+[19-Sep-2017 13:45:23 America/Bogota] PHP Warning:  Illegal string offset 'mecanico' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/orden_modificar.php on line 165
+[19-Sep-2017 13:45:23 America/Bogota] PHP Warning:  Illegal string offset 'observaciones' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/orden_modificar.php on line 172
+[19-Sep-2017 13:45:23 America/Bogota] PHP Warning:  Illegal string offset 'radio' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/orden_modificar.php on line 242
+[19-Sep-2017 13:45:23 America/Bogota] PHP Warning:  Illegal string offset 'herramienta' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/orden_modificar.php on line 247
+[19-Sep-2017 13:45:23 America/Bogota] PHP Warning:  Illegal string offset 'antena' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/orden_modificar.php on line 252
+[19-Sep-2017 13:45:23 America/Bogota] PHP Warning:  Illegal string offset 'otros' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/orden_modificar.php on line 256
+[19-Sep-2017 13:45:23 America/Bogota] PHP Warning:  Illegal string offset 'repuesto' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/orden_modificar.php on line 261
+[04-Oct-2017 14:31:19 America/Bogota] PHP Warning:  Illegal string offset 'id_orden' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/factura_imprimir.php on line 176
+[04-Oct-2017 14:31:19 America/Bogota] PHP Warning:  Illegal string offset 'razon_social' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/factura_imprimir.php on line 197
+[04-Oct-2017 14:31:19 America/Bogota] PHP Warning:  Illegal string offset 'identi' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/factura_imprimir.php on line 197
+[04-Oct-2017 14:31:19 America/Bogota] PHP Warning:  Illegal string offset 'resolucion' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/factura_imprimir.php on line 198
+[04-Oct-2017 14:31:19 America/Bogota] PHP Warning:  Illegal string offset 'regimen' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/factura_imprimir.php on line 217
+[04-Oct-2017 14:31:19 America/Bogota] PHP Warning:  Illegal string offset 'recibe_tarjetas' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/factura_imprimir.php on line 227
+[04-Oct-2017 14:31:19 America/Bogota] PHP Warning:  Illegal string offset 'direccion' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/factura_imprimir.php on line 273
+[04-Oct-2017 14:31:19 America/Bogota] PHP Warning:  Illegal string offset 'telefonos' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/factura_imprimir.php on line 273
+[04-Oct-2017 14:31:19 America/Bogota] PHP Warning:  Illegal string offset 'horario' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/factura_imprimir.php on line 281
+[04-Oct-2017 14:31:19 America/Bogota] PHP Warning:  Illegal string offset 'numero_factura' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/factura_imprimir.php on line 286
+[04-Oct-2017 14:31:19 America/Bogota] PHP Warning:  Illegal string offset 'email_empresa' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/factura_imprimir.php on line 292
+[04-Oct-2017 14:31:19 America/Bogota] PHP Warning:  Illegal string offset 'fecha_factura' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/factura_imprimir.php on line 295
+[04-Oct-2017 14:31:19 America/Bogota] PHP Warning:  Illegal string offset 'nombre' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/factura_imprimir.php on line 304
+[04-Oct-2017 14:31:19 America/Bogota] PHP Warning:  Illegal string offset 'identicli' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/factura_imprimir.php on line 306
+[04-Oct-2017 14:31:19 America/Bogota] PHP Warning:  Illegal string offset 'direccioncli' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/factura_imprimir.php on line 310
+[04-Oct-2017 14:31:19 America/Bogota] PHP Warning:  Illegal string offset 'telefonocli' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/factura_imprimir.php on line 312
+[04-Oct-2017 14:31:19 America/Bogota] PHP Warning:  Illegal string offset 'marca' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/factura_imprimir.php on line 320
+[04-Oct-2017 14:31:19 America/Bogota] PHP Warning:  Illegal string offset 'modelo' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/factura_imprimir.php on line 322
+[04-Oct-2017 14:31:19 America/Bogota] PHP Warning:  Illegal string offset 'color' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/factura_imprimir.php on line 322
+[04-Oct-2017 14:31:19 America/Bogota] PHP Warning:  Illegal string offset 'placa' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/factura_imprimir.php on line 324
+[04-Oct-2017 14:31:19 America/Bogota] PHP Warning:  Illegal string offset 'tipo' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/factura_imprimir.php on line 328
+[04-Oct-2017 14:31:19 America/Bogota] PHP Warning:  Illegal string offset 'kilometraje' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/factura_imprimir.php on line 330
+[04-Oct-2017 14:31:19 America/Bogota] PHP Warning:  Illegal string offset 'kilometraje_cambio' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/factura_imprimir.php on line 332
+[04-Oct-2017 14:31:19 America/Bogota] PHP Warning:  Illegal string offset 'id_orden' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/factura_imprimir.php on line 361
+[04-Oct-2017 14:31:19 America/Bogota] PHP Warning:  Illegal string offset 'resolucion' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/factura_imprimir.php on line 361
+[04-Oct-2017 14:31:19 America/Bogota] PHP Warning:  Illegal string offset 'totalfac' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/factura_imprimir.php on line 377
+[04-Oct-2017 14:31:19 America/Bogota] PHP Warning:  Illegal string offset 'resolucion' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/factura_imprimir.php on line 389
+[04-Oct-2017 14:31:19 America/Bogota] PHP Warning:  Illegal string offset 'resolucion' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/factura_imprimir.php on line 403
+[04-Oct-2017 14:31:19 America/Bogota] PHP Warning:  Illegal string offset 'resolucion' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/factura_imprimir.php on line 422
+[04-Oct-2017 14:31:19 America/Bogota] PHP Warning:  Illegal string offset 'retefuentefac' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/factura_imprimir.php on line 435
+[04-Oct-2017 14:31:19 America/Bogota] PHP Warning:  number_format() expects parameter 1 to be double, string given in /home/alexrubi/public_html/taller_prueba_nomina/facturas/factura_imprimir.php on line 435
+[04-Oct-2017 14:31:19 America/Bogota] PHP Warning:  Illegal string offset 'totalfac' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/factura_imprimir.php on line 444
+[04-Oct-2017 14:31:19 America/Bogota] PHP Warning:  number_format() expects parameter 1 to be double, string given in /home/alexrubi/public_html/taller_prueba_nomina/facturas/factura_imprimir.php on line 444
+[04-Oct-2017 14:46:35 America/Bogota] PHP Warning:  Illegal string offset 'id_orden' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/factura_imprimir.php on line 176
+[04-Oct-2017 14:46:35 America/Bogota] PHP Warning:  Illegal string offset 'razon_social' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/factura_imprimir.php on line 197
+[04-Oct-2017 14:46:35 America/Bogota] PHP Warning:  Illegal string offset 'identi' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/factura_imprimir.php on line 197
+[04-Oct-2017 14:46:35 America/Bogota] PHP Warning:  Illegal string offset 'resolucion' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/factura_imprimir.php on line 198
+[04-Oct-2017 14:46:35 America/Bogota] PHP Warning:  Illegal string offset 'regimen' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/factura_imprimir.php on line 217
+[04-Oct-2017 14:46:35 America/Bogota] PHP Warning:  Illegal string offset 'recibe_tarjetas' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/factura_imprimir.php on line 227
+[04-Oct-2017 14:46:35 America/Bogota] PHP Warning:  Illegal string offset 'direccion' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/factura_imprimir.php on line 273
+[04-Oct-2017 14:46:35 America/Bogota] PHP Warning:  Illegal string offset 'telefonos' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/factura_imprimir.php on line 273
+[04-Oct-2017 14:46:35 America/Bogota] PHP Warning:  Illegal string offset 'horario' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/factura_imprimir.php on line 281
+[04-Oct-2017 14:46:35 America/Bogota] PHP Warning:  Illegal string offset 'numero_factura' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/factura_imprimir.php on line 286
+[04-Oct-2017 14:46:35 America/Bogota] PHP Warning:  Illegal string offset 'email_empresa' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/factura_imprimir.php on line 292
+[04-Oct-2017 14:46:35 America/Bogota] PHP Warning:  Illegal string offset 'fecha_factura' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/factura_imprimir.php on line 295
+[04-Oct-2017 14:46:35 America/Bogota] PHP Warning:  Illegal string offset 'nombre' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/factura_imprimir.php on line 304
+[04-Oct-2017 14:46:35 America/Bogota] PHP Warning:  Illegal string offset 'identicli' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/factura_imprimir.php on line 306
+[04-Oct-2017 14:46:35 America/Bogota] PHP Warning:  Illegal string offset 'direccioncli' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/factura_imprimir.php on line 310
+[04-Oct-2017 14:46:35 America/Bogota] PHP Warning:  Illegal string offset 'telefonocli' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/factura_imprimir.php on line 312
+[04-Oct-2017 14:46:35 America/Bogota] PHP Warning:  Illegal string offset 'marca' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/factura_imprimir.php on line 320
+[04-Oct-2017 14:46:35 America/Bogota] PHP Warning:  Illegal string offset 'modelo' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/factura_imprimir.php on line 322
+[04-Oct-2017 14:46:35 America/Bogota] PHP Warning:  Illegal string offset 'color' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/factura_imprimir.php on line 322
+[04-Oct-2017 14:46:35 America/Bogota] PHP Warning:  Illegal string offset 'placa' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/factura_imprimir.php on line 324
+[04-Oct-2017 14:46:35 America/Bogota] PHP Warning:  Illegal string offset 'tipo' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/factura_imprimir.php on line 328
+[04-Oct-2017 14:46:35 America/Bogota] PHP Warning:  Illegal string offset 'kilometraje' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/factura_imprimir.php on line 330
+[04-Oct-2017 14:46:35 America/Bogota] PHP Warning:  Illegal string offset 'kilometraje_cambio' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/factura_imprimir.php on line 332
+[04-Oct-2017 14:46:35 America/Bogota] PHP Warning:  Illegal string offset 'id_orden' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/factura_imprimir.php on line 361
+[04-Oct-2017 14:46:35 America/Bogota] PHP Warning:  Illegal string offset 'resolucion' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/factura_imprimir.php on line 361
+[04-Oct-2017 14:46:35 America/Bogota] PHP Warning:  Illegal string offset 'totalfac' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/factura_imprimir.php on line 377
+[04-Oct-2017 14:46:35 America/Bogota] PHP Warning:  Illegal string offset 'resolucion' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/factura_imprimir.php on line 389
+[04-Oct-2017 14:46:35 America/Bogota] PHP Warning:  Illegal string offset 'resolucion' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/factura_imprimir.php on line 403
+[04-Oct-2017 14:46:35 America/Bogota] PHP Warning:  Illegal string offset 'resolucion' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/factura_imprimir.php on line 422
+[04-Oct-2017 14:46:35 America/Bogota] PHP Warning:  Illegal string offset 'retefuentefac' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/factura_imprimir.php on line 435
+[04-Oct-2017 14:46:35 America/Bogota] PHP Warning:  number_format() expects parameter 1 to be double, string given in /home/alexrubi/public_html/taller_prueba_nomina/facturas/factura_imprimir.php on line 435
+[04-Oct-2017 14:46:35 America/Bogota] PHP Warning:  Illegal string offset 'totalfac' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/factura_imprimir.php on line 444
+[04-Oct-2017 14:46:35 America/Bogota] PHP Warning:  number_format() expects parameter 1 to be double, string given in /home/alexrubi/public_html/taller_prueba_nomina/facturas/factura_imprimir.php on line 444
+[04-Oct-2017 14:46:36 America/Bogota] PHP Warning:  Illegal string offset 'orden' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/orden_modificar.php on line 109
+[04-Oct-2017 14:46:36 America/Bogota] PHP Warning:  Illegal string offset 'identi' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/orden_modificar.php on line 114
+[04-Oct-2017 14:46:36 America/Bogota] PHP Warning:  Illegal string offset 'telefonos_empresa' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/orden_modificar.php on line 118
+[04-Oct-2017 14:46:36 America/Bogota] PHP Warning:  Illegal string offset 'direccion_empresa' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/orden_modificar.php on line 122
+[04-Oct-2017 14:46:36 America/Bogota] PHP Warning:  Illegal string offset 'fecha' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/orden_modificar.php on line 127
+[04-Oct-2017 14:46:36 America/Bogota] PHP Warning:  Illegal string offset 'marca' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/orden_modificar.php on line 129
+[04-Oct-2017 14:46:36 America/Bogota] PHP Warning:  Illegal string offset 'nombre' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/orden_modificar.php on line 133
+[04-Oct-2017 14:46:36 America/Bogota] PHP Warning:  Illegal string offset 'tipo' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/orden_modificar.php on line 135
+[04-Oct-2017 14:46:36 America/Bogota] PHP Warning:  Illegal string offset 'identi' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/orden_modificar.php on line 139
+[04-Oct-2017 14:46:36 America/Bogota] PHP Warning:  Illegal string offset 'modelo' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/orden_modificar.php on line 141
+[04-Oct-2017 14:46:36 America/Bogota] PHP Warning:  Illegal string offset 'direccion' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/orden_modificar.php on line 145
+[04-Oct-2017 14:46:36 America/Bogota] PHP Warning:  Illegal string offset 'placa' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/orden_modificar.php on line 147
+[04-Oct-2017 14:46:36 America/Bogota] PHP Warning:  Illegal string offset 'telefono' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/orden_modificar.php on line 151
+[04-Oct-2017 14:46:36 America/Bogota] PHP Warning:  Illegal string offset 'color' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/orden_modificar.php on line 153
+[04-Oct-2017 14:46:36 America/Bogota] PHP Warning:  Illegal string offset 'kilometraje' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/orden_modificar.php on line 159
+[04-Oct-2017 14:46:36 America/Bogota] PHP Warning:  Illegal string offset 'mecanico' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/orden_modificar.php on line 165
+[04-Oct-2017 14:46:36 America/Bogota] PHP Warning:  Illegal string offset 'observaciones' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/orden_modificar.php on line 172
+[04-Oct-2017 14:46:36 America/Bogota] PHP Warning:  Illegal string offset 'radio' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/orden_modificar.php on line 242
+[04-Oct-2017 14:46:36 America/Bogota] PHP Warning:  Illegal string offset 'herramienta' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/orden_modificar.php on line 247
+[04-Oct-2017 14:46:36 America/Bogota] PHP Warning:  Illegal string offset 'antena' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/orden_modificar.php on line 252
+[04-Oct-2017 14:46:36 America/Bogota] PHP Warning:  Illegal string offset 'otros' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/orden_modificar.php on line 256
+[04-Oct-2017 14:46:36 America/Bogota] PHP Warning:  Illegal string offset 'repuesto' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/orden_modificar.php on line 261
+[04-Oct-2017 14:46:41 America/Bogota] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/alexrubi/public_html/taller_prueba_nomina/empresa.php on line 7
+[10-Oct-2017 18:14:28 America/Bogota] PHP Warning:  Illegal string offset 'id_orden' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/factura_imprimir.php on line 176
+[10-Oct-2017 18:14:28 America/Bogota] PHP Warning:  Illegal string offset 'razon_social' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/factura_imprimir.php on line 197
+[10-Oct-2017 18:14:28 America/Bogota] PHP Warning:  Illegal string offset 'identi' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/factura_imprimir.php on line 197
+[10-Oct-2017 18:14:28 America/Bogota] PHP Warning:  Illegal string offset 'resolucion' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/factura_imprimir.php on line 198
+[10-Oct-2017 18:14:28 America/Bogota] PHP Warning:  Illegal string offset 'regimen' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/factura_imprimir.php on line 217
+[10-Oct-2017 18:14:28 America/Bogota] PHP Warning:  Illegal string offset 'recibe_tarjetas' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/factura_imprimir.php on line 227
+[10-Oct-2017 18:14:28 America/Bogota] PHP Warning:  Illegal string offset 'direccion' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/factura_imprimir.php on line 273
+[10-Oct-2017 18:14:28 America/Bogota] PHP Warning:  Illegal string offset 'telefonos' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/factura_imprimir.php on line 273
+[10-Oct-2017 18:14:28 America/Bogota] PHP Warning:  Illegal string offset 'horario' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/factura_imprimir.php on line 281
+[10-Oct-2017 18:14:28 America/Bogota] PHP Warning:  Illegal string offset 'numero_factura' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/factura_imprimir.php on line 286
+[10-Oct-2017 18:14:28 America/Bogota] PHP Warning:  Illegal string offset 'email_empresa' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/factura_imprimir.php on line 292
+[10-Oct-2017 18:14:28 America/Bogota] PHP Warning:  Illegal string offset 'fecha_factura' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/factura_imprimir.php on line 295
+[10-Oct-2017 18:14:28 America/Bogota] PHP Warning:  Illegal string offset 'nombre' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/factura_imprimir.php on line 304
+[10-Oct-2017 18:14:28 America/Bogota] PHP Warning:  Illegal string offset 'identicli' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/factura_imprimir.php on line 306
+[10-Oct-2017 18:14:28 America/Bogota] PHP Warning:  Illegal string offset 'direccioncli' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/factura_imprimir.php on line 310
+[10-Oct-2017 18:14:28 America/Bogota] PHP Warning:  Illegal string offset 'telefonocli' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/factura_imprimir.php on line 312
+[10-Oct-2017 18:14:28 America/Bogota] PHP Warning:  Illegal string offset 'marca' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/factura_imprimir.php on line 320
+[10-Oct-2017 18:14:28 America/Bogota] PHP Warning:  Illegal string offset 'modelo' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/factura_imprimir.php on line 322
+[10-Oct-2017 18:14:28 America/Bogota] PHP Warning:  Illegal string offset 'color' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/factura_imprimir.php on line 322
+[10-Oct-2017 18:14:28 America/Bogota] PHP Warning:  Illegal string offset 'placa' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/factura_imprimir.php on line 324
+[10-Oct-2017 18:14:28 America/Bogota] PHP Warning:  Illegal string offset 'tipo' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/factura_imprimir.php on line 328
+[10-Oct-2017 18:14:28 America/Bogota] PHP Warning:  Illegal string offset 'kilometraje' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/factura_imprimir.php on line 330
+[10-Oct-2017 18:14:28 America/Bogota] PHP Warning:  Illegal string offset 'kilometraje_cambio' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/factura_imprimir.php on line 332
+[10-Oct-2017 18:14:28 America/Bogota] PHP Warning:  Illegal string offset 'id_orden' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/factura_imprimir.php on line 361
+[10-Oct-2017 18:14:28 America/Bogota] PHP Warning:  Illegal string offset 'resolucion' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/factura_imprimir.php on line 361
+[10-Oct-2017 18:14:28 America/Bogota] PHP Warning:  Illegal string offset 'totalfac' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/factura_imprimir.php on line 377
+[10-Oct-2017 18:14:28 America/Bogota] PHP Warning:  Illegal string offset 'resolucion' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/factura_imprimir.php on line 389
+[10-Oct-2017 18:14:28 America/Bogota] PHP Warning:  Illegal string offset 'resolucion' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/factura_imprimir.php on line 403
+[10-Oct-2017 18:14:28 America/Bogota] PHP Warning:  Illegal string offset 'resolucion' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/factura_imprimir.php on line 422
+[10-Oct-2017 18:14:28 America/Bogota] PHP Warning:  Illegal string offset 'retefuentefac' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/factura_imprimir.php on line 435
+[10-Oct-2017 18:14:28 America/Bogota] PHP Warning:  number_format() expects parameter 1 to be double, string given in /home/alexrubi/public_html/taller_prueba_nomina/facturas/factura_imprimir.php on line 435
+[10-Oct-2017 18:14:28 America/Bogota] PHP Warning:  Illegal string offset 'totalfac' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/factura_imprimir.php on line 444
+[10-Oct-2017 18:14:28 America/Bogota] PHP Warning:  number_format() expects parameter 1 to be double, string given in /home/alexrubi/public_html/taller_prueba_nomina/facturas/factura_imprimir.php on line 444
+[10-Oct-2017 18:14:28 America/Bogota] PHP Warning:  Illegal string offset 'orden' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/orden_modificar.php on line 109
+[10-Oct-2017 18:14:28 America/Bogota] PHP Warning:  Illegal string offset 'identi' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/orden_modificar.php on line 114
+[10-Oct-2017 18:14:28 America/Bogota] PHP Warning:  Illegal string offset 'telefonos_empresa' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/orden_modificar.php on line 118
+[10-Oct-2017 18:14:28 America/Bogota] PHP Warning:  Illegal string offset 'direccion_empresa' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/orden_modificar.php on line 122
+[10-Oct-2017 18:14:28 America/Bogota] PHP Warning:  Illegal string offset 'fecha' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/orden_modificar.php on line 127
+[10-Oct-2017 18:14:28 America/Bogota] PHP Warning:  Illegal string offset 'marca' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/orden_modificar.php on line 129
+[10-Oct-2017 18:14:28 America/Bogota] PHP Warning:  Illegal string offset 'nombre' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/orden_modificar.php on line 133
+[10-Oct-2017 18:14:28 America/Bogota] PHP Warning:  Illegal string offset 'tipo' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/orden_modificar.php on line 135
+[10-Oct-2017 18:14:28 America/Bogota] PHP Warning:  Illegal string offset 'identi' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/orden_modificar.php on line 139
+[10-Oct-2017 18:14:28 America/Bogota] PHP Warning:  Illegal string offset 'modelo' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/orden_modificar.php on line 141
+[10-Oct-2017 18:14:28 America/Bogota] PHP Warning:  Illegal string offset 'direccion' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/orden_modificar.php on line 145
+[10-Oct-2017 18:14:28 America/Bogota] PHP Warning:  Illegal string offset 'placa' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/orden_modificar.php on line 147
+[10-Oct-2017 18:14:28 America/Bogota] PHP Warning:  Illegal string offset 'telefono' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/orden_modificar.php on line 151
+[10-Oct-2017 18:14:28 America/Bogota] PHP Warning:  Illegal string offset 'color' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/orden_modificar.php on line 153
+[10-Oct-2017 18:14:28 America/Bogota] PHP Warning:  Illegal string offset 'kilometraje' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/orden_modificar.php on line 159
+[10-Oct-2017 18:14:28 America/Bogota] PHP Warning:  Illegal string offset 'mecanico' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/orden_modificar.php on line 165
+[10-Oct-2017 18:14:28 America/Bogota] PHP Warning:  Illegal string offset 'observaciones' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/orden_modificar.php on line 172
+[10-Oct-2017 18:14:28 America/Bogota] PHP Warning:  Illegal string offset 'radio' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/orden_modificar.php on line 242
+[10-Oct-2017 18:14:28 America/Bogota] PHP Warning:  Illegal string offset 'herramienta' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/orden_modificar.php on line 247
+[10-Oct-2017 18:14:28 America/Bogota] PHP Warning:  Illegal string offset 'antena' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/orden_modificar.php on line 252
+[10-Oct-2017 18:14:28 America/Bogota] PHP Warning:  Illegal string offset 'otros' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/orden_modificar.php on line 256
+[10-Oct-2017 18:14:28 America/Bogota] PHP Warning:  Illegal string offset 'repuesto' in /home/alexrubi/public_html/taller_prueba_nomina/facturas/orden_modificar.php on line 261
+[18-Oct-2017 18:40:37 America/Bogota] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/alexrubi/public_html/taller_prueba_nomina/empresa.php on line 7
+[01-Mar-2019 21:50:47 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[01-Mar-2019 21:50:49 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[01-Mar-2019 21:50:49 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[01-Mar-2019 21:50:50 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[01-Mar-2019 21:50:52 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[01-Mar-2019 21:50:52 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[01-Mar-2019 21:50:53 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[01-Mar-2019 21:51:54 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[06-Jun-2019 03:20:30 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[05-Nov-2020 22:52:45 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[05-Nov-2020 22:52:47 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[05-Nov-2020 22:52:47 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[05-Nov-2020 22:52:50 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[05-Nov-2020 22:52:51 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[05-Nov-2020 22:52:59 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[05-Nov-2020 22:53:02 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[05-Nov-2020 22:53:02 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[05-Nov-2020 22:53:07 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[05-Nov-2020 22:53:10 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37

@@ -1,0 +1,337 @@
+[22-May-2017 17:28:31 America/Bogota] PHP Warning:  Illegal string offset 'marca' in /home/alexrubi/public_html/taller_prueba_nomina/orden/ordencaptura.php on line 129
+[22-May-2017 17:28:31 America/Bogota] PHP Warning:  Illegal string offset 'nombre' in /home/alexrubi/public_html/taller_prueba_nomina/orden/ordencaptura.php on line 133
+[22-May-2017 17:28:31 America/Bogota] PHP Warning:  Illegal string offset 'tipo' in /home/alexrubi/public_html/taller_prueba_nomina/orden/ordencaptura.php on line 135
+[22-May-2017 17:28:31 America/Bogota] PHP Warning:  Illegal string offset 'identi' in /home/alexrubi/public_html/taller_prueba_nomina/orden/ordencaptura.php on line 139
+[22-May-2017 17:28:31 America/Bogota] PHP Warning:  Illegal string offset 'modelo' in /home/alexrubi/public_html/taller_prueba_nomina/orden/ordencaptura.php on line 141
+[22-May-2017 17:28:31 America/Bogota] PHP Warning:  Illegal string offset 'direccion' in /home/alexrubi/public_html/taller_prueba_nomina/orden/ordencaptura.php on line 145
+[22-May-2017 17:28:31 America/Bogota] PHP Warning:  Illegal string offset 'placa' in /home/alexrubi/public_html/taller_prueba_nomina/orden/ordencaptura.php on line 147
+[22-May-2017 17:28:31 America/Bogota] PHP Warning:  Illegal string offset 'telefono' in /home/alexrubi/public_html/taller_prueba_nomina/orden/ordencaptura.php on line 151
+[22-May-2017 17:28:31 America/Bogota] PHP Warning:  Illegal string offset 'color' in /home/alexrubi/public_html/taller_prueba_nomina/orden/ordencaptura.php on line 153
+[23-May-2017 14:27:06 America/Bogota] PHP Warning:  Illegal string offset 'marca' in /home/alexrubi/public_html/taller_prueba_nomina/orden/ordencaptura.php on line 129
+[23-May-2017 14:27:06 America/Bogota] PHP Warning:  Illegal string offset 'nombre' in /home/alexrubi/public_html/taller_prueba_nomina/orden/ordencaptura.php on line 133
+[23-May-2017 14:27:06 America/Bogota] PHP Warning:  Illegal string offset 'tipo' in /home/alexrubi/public_html/taller_prueba_nomina/orden/ordencaptura.php on line 135
+[23-May-2017 14:27:06 America/Bogota] PHP Warning:  Illegal string offset 'identi' in /home/alexrubi/public_html/taller_prueba_nomina/orden/ordencaptura.php on line 139
+[23-May-2017 14:27:06 America/Bogota] PHP Warning:  Illegal string offset 'modelo' in /home/alexrubi/public_html/taller_prueba_nomina/orden/ordencaptura.php on line 141
+[23-May-2017 14:27:06 America/Bogota] PHP Warning:  Illegal string offset 'direccion' in /home/alexrubi/public_html/taller_prueba_nomina/orden/ordencaptura.php on line 145
+[23-May-2017 14:27:06 America/Bogota] PHP Warning:  Illegal string offset 'placa' in /home/alexrubi/public_html/taller_prueba_nomina/orden/ordencaptura.php on line 147
+[23-May-2017 14:27:06 America/Bogota] PHP Warning:  Illegal string offset 'telefono' in /home/alexrubi/public_html/taller_prueba_nomina/orden/ordencaptura.php on line 151
+[23-May-2017 14:27:06 America/Bogota] PHP Warning:  Illegal string offset 'color' in /home/alexrubi/public_html/taller_prueba_nomina/orden/ordencaptura.php on line 153
+[23-May-2017 14:27:24 America/Bogota] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/alexrubi/public_html/taller_prueba_nomina/empresa.php on line 7
+[28-May-2017 14:10:24 America/Bogota] PHP Warning:  Illegal string offset 'marca' in /home/alexrubi/public_html/taller_prueba_nomina/orden/ordencaptura.php on line 129
+[28-May-2017 14:10:24 America/Bogota] PHP Warning:  Illegal string offset 'nombre' in /home/alexrubi/public_html/taller_prueba_nomina/orden/ordencaptura.php on line 133
+[28-May-2017 14:10:24 America/Bogota] PHP Warning:  Illegal string offset 'tipo' in /home/alexrubi/public_html/taller_prueba_nomina/orden/ordencaptura.php on line 135
+[28-May-2017 14:10:24 America/Bogota] PHP Warning:  Illegal string offset 'identi' in /home/alexrubi/public_html/taller_prueba_nomina/orden/ordencaptura.php on line 139
+[28-May-2017 14:10:24 America/Bogota] PHP Warning:  Illegal string offset 'modelo' in /home/alexrubi/public_html/taller_prueba_nomina/orden/ordencaptura.php on line 141
+[28-May-2017 14:10:24 America/Bogota] PHP Warning:  Illegal string offset 'direccion' in /home/alexrubi/public_html/taller_prueba_nomina/orden/ordencaptura.php on line 145
+[28-May-2017 14:10:24 America/Bogota] PHP Warning:  Illegal string offset 'placa' in /home/alexrubi/public_html/taller_prueba_nomina/orden/ordencaptura.php on line 147
+[28-May-2017 14:10:24 America/Bogota] PHP Warning:  Illegal string offset 'telefono' in /home/alexrubi/public_html/taller_prueba_nomina/orden/ordencaptura.php on line 151
+[28-May-2017 14:10:24 America/Bogota] PHP Warning:  Illegal string offset 'color' in /home/alexrubi/public_html/taller_prueba_nomina/orden/ordencaptura.php on line 153
+[07-Jun-2017 12:59:30 America/Bogota] PHP Warning:  Illegal string offset 'marca' in /home/alexrubi/public_html/taller_prueba_nomina/orden/ordencaptura.php on line 129
+[07-Jun-2017 12:59:30 America/Bogota] PHP Warning:  Illegal string offset 'nombre' in /home/alexrubi/public_html/taller_prueba_nomina/orden/ordencaptura.php on line 133
+[07-Jun-2017 12:59:30 America/Bogota] PHP Warning:  Illegal string offset 'tipo' in /home/alexrubi/public_html/taller_prueba_nomina/orden/ordencaptura.php on line 135
+[07-Jun-2017 12:59:30 America/Bogota] PHP Warning:  Illegal string offset 'identi' in /home/alexrubi/public_html/taller_prueba_nomina/orden/ordencaptura.php on line 139
+[07-Jun-2017 12:59:30 America/Bogota] PHP Warning:  Illegal string offset 'modelo' in /home/alexrubi/public_html/taller_prueba_nomina/orden/ordencaptura.php on line 141
+[07-Jun-2017 12:59:30 America/Bogota] PHP Warning:  Illegal string offset 'direccion' in /home/alexrubi/public_html/taller_prueba_nomina/orden/ordencaptura.php on line 145
+[07-Jun-2017 12:59:30 America/Bogota] PHP Warning:  Illegal string offset 'placa' in /home/alexrubi/public_html/taller_prueba_nomina/orden/ordencaptura.php on line 147
+[07-Jun-2017 12:59:30 America/Bogota] PHP Warning:  Illegal string offset 'telefono' in /home/alexrubi/public_html/taller_prueba_nomina/orden/ordencaptura.php on line 151
+[07-Jun-2017 12:59:30 America/Bogota] PHP Warning:  Illegal string offset 'color' in /home/alexrubi/public_html/taller_prueba_nomina/orden/ordencaptura.php on line 153
+[04-Aug-2017 16:50:01 America/Bogota] PHP Warning:  Illegal string offset 'marca' in /home/alexrubi/public_html/taller_prueba_nomina/orden/ordencaptura.php on line 129
+[04-Aug-2017 16:50:01 America/Bogota] PHP Warning:  Illegal string offset 'nombre' in /home/alexrubi/public_html/taller_prueba_nomina/orden/ordencaptura.php on line 133
+[04-Aug-2017 16:50:01 America/Bogota] PHP Warning:  Illegal string offset 'tipo' in /home/alexrubi/public_html/taller_prueba_nomina/orden/ordencaptura.php on line 135
+[04-Aug-2017 16:50:01 America/Bogota] PHP Warning:  Illegal string offset 'identi' in /home/alexrubi/public_html/taller_prueba_nomina/orden/ordencaptura.php on line 139
+[04-Aug-2017 16:50:01 America/Bogota] PHP Warning:  Illegal string offset 'modelo' in /home/alexrubi/public_html/taller_prueba_nomina/orden/ordencaptura.php on line 141
+[04-Aug-2017 16:50:01 America/Bogota] PHP Warning:  Illegal string offset 'direccion' in /home/alexrubi/public_html/taller_prueba_nomina/orden/ordencaptura.php on line 145
+[04-Aug-2017 16:50:01 America/Bogota] PHP Warning:  Illegal string offset 'placa' in /home/alexrubi/public_html/taller_prueba_nomina/orden/ordencaptura.php on line 147
+[04-Aug-2017 16:50:01 America/Bogota] PHP Warning:  Illegal string offset 'telefono' in /home/alexrubi/public_html/taller_prueba_nomina/orden/ordencaptura.php on line 151
+[04-Aug-2017 16:50:01 America/Bogota] PHP Warning:  Illegal string offset 'color' in /home/alexrubi/public_html/taller_prueba_nomina/orden/ordencaptura.php on line 153
+[04-Aug-2017 17:53:05 America/Bogota] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/alexrubi/public_html/taller_prueba_nomina/empresa.php on line 7
+[04-Aug-2017 17:53:08 America/Bogota] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/alexrubi/public_html/taller_prueba_nomina/empresa.php on line 7
+[23-Aug-2017 18:13:49 America/Bogota] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/alexrubi/public_html/taller_prueba_nomina/empresa.php on line 7
+[23-Aug-2017 18:14:55 America/Bogota] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/alexrubi/public_html/taller_prueba_nomina/empresa.php on line 7
+[21-Sep-2017 16:45:51 America/Bogota] PHP Warning:  Illegal string offset 'marca' in /home/alexrubi/public_html/taller_prueba_nomina/orden/ordencaptura.php on line 129
+[21-Sep-2017 16:45:51 America/Bogota] PHP Warning:  Illegal string offset 'nombre' in /home/alexrubi/public_html/taller_prueba_nomina/orden/ordencaptura.php on line 133
+[21-Sep-2017 16:45:51 America/Bogota] PHP Warning:  Illegal string offset 'tipo' in /home/alexrubi/public_html/taller_prueba_nomina/orden/ordencaptura.php on line 135
+[21-Sep-2017 16:45:51 America/Bogota] PHP Warning:  Illegal string offset 'identi' in /home/alexrubi/public_html/taller_prueba_nomina/orden/ordencaptura.php on line 139
+[21-Sep-2017 16:45:51 America/Bogota] PHP Warning:  Illegal string offset 'modelo' in /home/alexrubi/public_html/taller_prueba_nomina/orden/ordencaptura.php on line 141
+[21-Sep-2017 16:45:51 America/Bogota] PHP Warning:  Illegal string offset 'direccion' in /home/alexrubi/public_html/taller_prueba_nomina/orden/ordencaptura.php on line 145
+[21-Sep-2017 16:45:51 America/Bogota] PHP Warning:  Illegal string offset 'placa' in /home/alexrubi/public_html/taller_prueba_nomina/orden/ordencaptura.php on line 147
+[21-Sep-2017 16:45:51 America/Bogota] PHP Warning:  Illegal string offset 'telefono' in /home/alexrubi/public_html/taller_prueba_nomina/orden/ordencaptura.php on line 151
+[21-Sep-2017 16:45:51 America/Bogota] PHP Warning:  Illegal string offset 'color' in /home/alexrubi/public_html/taller_prueba_nomina/orden/ordencaptura.php on line 153
+[28-Sep-2017 14:07:09 America/Bogota] PHP Warning:  Illegal string offset 'marca' in /home/alexrubi/public_html/taller_prueba_nomina/orden/ordencaptura.php on line 129
+[28-Sep-2017 14:07:09 America/Bogota] PHP Warning:  Illegal string offset 'nombre' in /home/alexrubi/public_html/taller_prueba_nomina/orden/ordencaptura.php on line 133
+[28-Sep-2017 14:07:09 America/Bogota] PHP Warning:  Illegal string offset 'tipo' in /home/alexrubi/public_html/taller_prueba_nomina/orden/ordencaptura.php on line 135
+[28-Sep-2017 14:07:09 America/Bogota] PHP Warning:  Illegal string offset 'identi' in /home/alexrubi/public_html/taller_prueba_nomina/orden/ordencaptura.php on line 139
+[28-Sep-2017 14:07:09 America/Bogota] PHP Warning:  Illegal string offset 'modelo' in /home/alexrubi/public_html/taller_prueba_nomina/orden/ordencaptura.php on line 141
+[28-Sep-2017 14:07:09 America/Bogota] PHP Warning:  Illegal string offset 'direccion' in /home/alexrubi/public_html/taller_prueba_nomina/orden/ordencaptura.php on line 145
+[28-Sep-2017 14:07:09 America/Bogota] PHP Warning:  Illegal string offset 'placa' in /home/alexrubi/public_html/taller_prueba_nomina/orden/ordencaptura.php on line 147
+[28-Sep-2017 14:07:09 America/Bogota] PHP Warning:  Illegal string offset 'telefono' in /home/alexrubi/public_html/taller_prueba_nomina/orden/ordencaptura.php on line 151
+[28-Sep-2017 14:07:09 America/Bogota] PHP Warning:  Illegal string offset 'color' in /home/alexrubi/public_html/taller_prueba_nomina/orden/ordencaptura.php on line 153
+[28-Sep-2017 14:19:43 America/Bogota] PHP Warning:  Illegal string offset 'marca' in /home/alexrubi/public_html/taller_prueba_nomina/orden/ordencaptura.php on line 129
+[28-Sep-2017 14:19:43 America/Bogota] PHP Warning:  Illegal string offset 'nombre' in /home/alexrubi/public_html/taller_prueba_nomina/orden/ordencaptura.php on line 133
+[28-Sep-2017 14:19:43 America/Bogota] PHP Warning:  Illegal string offset 'tipo' in /home/alexrubi/public_html/taller_prueba_nomina/orden/ordencaptura.php on line 135
+[28-Sep-2017 14:19:43 America/Bogota] PHP Warning:  Illegal string offset 'identi' in /home/alexrubi/public_html/taller_prueba_nomina/orden/ordencaptura.php on line 139
+[28-Sep-2017 14:19:43 America/Bogota] PHP Warning:  Illegal string offset 'modelo' in /home/alexrubi/public_html/taller_prueba_nomina/orden/ordencaptura.php on line 141
+[28-Sep-2017 14:19:43 America/Bogota] PHP Warning:  Illegal string offset 'direccion' in /home/alexrubi/public_html/taller_prueba_nomina/orden/ordencaptura.php on line 145
+[28-Sep-2017 14:19:43 America/Bogota] PHP Warning:  Illegal string offset 'placa' in /home/alexrubi/public_html/taller_prueba_nomina/orden/ordencaptura.php on line 147
+[28-Sep-2017 14:19:43 America/Bogota] PHP Warning:  Illegal string offset 'telefono' in /home/alexrubi/public_html/taller_prueba_nomina/orden/ordencaptura.php on line 151
+[28-Sep-2017 14:19:43 America/Bogota] PHP Warning:  Illegal string offset 'color' in /home/alexrubi/public_html/taller_prueba_nomina/orden/ordencaptura.php on line 153
+[28-Sep-2017 14:19:51 America/Bogota] PHP Warning:  Illegal string offset 'marca' in /home/alexrubi/public_html/taller_prueba_nomina/orden/ordencaptura.php on line 129
+[28-Sep-2017 14:19:51 America/Bogota] PHP Warning:  Illegal string offset 'nombre' in /home/alexrubi/public_html/taller_prueba_nomina/orden/ordencaptura.php on line 133
+[28-Sep-2017 14:19:51 America/Bogota] PHP Warning:  Illegal string offset 'tipo' in /home/alexrubi/public_html/taller_prueba_nomina/orden/ordencaptura.php on line 135
+[28-Sep-2017 14:19:51 America/Bogota] PHP Warning:  Illegal string offset 'identi' in /home/alexrubi/public_html/taller_prueba_nomina/orden/ordencaptura.php on line 139
+[28-Sep-2017 14:19:51 America/Bogota] PHP Warning:  Illegal string offset 'modelo' in /home/alexrubi/public_html/taller_prueba_nomina/orden/ordencaptura.php on line 141
+[28-Sep-2017 14:19:51 America/Bogota] PHP Warning:  Illegal string offset 'direccion' in /home/alexrubi/public_html/taller_prueba_nomina/orden/ordencaptura.php on line 145
+[28-Sep-2017 14:19:51 America/Bogota] PHP Warning:  Illegal string offset 'placa' in /home/alexrubi/public_html/taller_prueba_nomina/orden/ordencaptura.php on line 147
+[28-Sep-2017 14:19:51 America/Bogota] PHP Warning:  Illegal string offset 'telefono' in /home/alexrubi/public_html/taller_prueba_nomina/orden/ordencaptura.php on line 151
+[28-Sep-2017 14:19:51 America/Bogota] PHP Warning:  Illegal string offset 'color' in /home/alexrubi/public_html/taller_prueba_nomina/orden/ordencaptura.php on line 153
+[04-Oct-2017 14:46:50 America/Bogota] PHP Warning:  Illegal string offset 'marca' in /home/alexrubi/public_html/taller_prueba_nomina/orden/ordencaptura.php on line 129
+[04-Oct-2017 14:46:50 America/Bogota] PHP Warning:  Illegal string offset 'nombre' in /home/alexrubi/public_html/taller_prueba_nomina/orden/ordencaptura.php on line 133
+[04-Oct-2017 14:46:50 America/Bogota] PHP Warning:  Illegal string offset 'tipo' in /home/alexrubi/public_html/taller_prueba_nomina/orden/ordencaptura.php on line 135
+[04-Oct-2017 14:46:50 America/Bogota] PHP Warning:  Illegal string offset 'identi' in /home/alexrubi/public_html/taller_prueba_nomina/orden/ordencaptura.php on line 139
+[04-Oct-2017 14:46:50 America/Bogota] PHP Warning:  Illegal string offset 'modelo' in /home/alexrubi/public_html/taller_prueba_nomina/orden/ordencaptura.php on line 141
+[04-Oct-2017 14:46:50 America/Bogota] PHP Warning:  Illegal string offset 'direccion' in /home/alexrubi/public_html/taller_prueba_nomina/orden/ordencaptura.php on line 145
+[04-Oct-2017 14:46:50 America/Bogota] PHP Warning:  Illegal string offset 'placa' in /home/alexrubi/public_html/taller_prueba_nomina/orden/ordencaptura.php on line 147
+[04-Oct-2017 14:46:50 America/Bogota] PHP Warning:  Illegal string offset 'telefono' in /home/alexrubi/public_html/taller_prueba_nomina/orden/ordencaptura.php on line 151
+[04-Oct-2017 14:46:50 America/Bogota] PHP Warning:  Illegal string offset 'color' in /home/alexrubi/public_html/taller_prueba_nomina/orden/ordencaptura.php on line 153
+[04-Oct-2017 14:46:51 America/Bogota] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/alexrubi/public_html/taller_prueba_nomina/empresa.php on line 7
+[09-Oct-2017 13:01:51 America/Bogota] PHP Warning:  Illegal string offset 'marca' in /home/alexrubi/public_html/taller_prueba_nomina/orden/ordencaptura.php on line 129
+[09-Oct-2017 13:01:51 America/Bogota] PHP Warning:  Illegal string offset 'nombre' in /home/alexrubi/public_html/taller_prueba_nomina/orden/ordencaptura.php on line 133
+[09-Oct-2017 13:01:51 America/Bogota] PHP Warning:  Illegal string offset 'tipo' in /home/alexrubi/public_html/taller_prueba_nomina/orden/ordencaptura.php on line 135
+[09-Oct-2017 13:01:51 America/Bogota] PHP Warning:  Illegal string offset 'identi' in /home/alexrubi/public_html/taller_prueba_nomina/orden/ordencaptura.php on line 139
+[09-Oct-2017 13:01:51 America/Bogota] PHP Warning:  Illegal string offset 'modelo' in /home/alexrubi/public_html/taller_prueba_nomina/orden/ordencaptura.php on line 141
+[09-Oct-2017 13:01:51 America/Bogota] PHP Warning:  Illegal string offset 'direccion' in /home/alexrubi/public_html/taller_prueba_nomina/orden/ordencaptura.php on line 145
+[09-Oct-2017 13:01:51 America/Bogota] PHP Warning:  Illegal string offset 'placa' in /home/alexrubi/public_html/taller_prueba_nomina/orden/ordencaptura.php on line 147
+[09-Oct-2017 13:01:51 America/Bogota] PHP Warning:  Illegal string offset 'telefono' in /home/alexrubi/public_html/taller_prueba_nomina/orden/ordencaptura.php on line 151
+[09-Oct-2017 13:01:51 America/Bogota] PHP Warning:  Illegal string offset 'color' in /home/alexrubi/public_html/taller_prueba_nomina/orden/ordencaptura.php on line 153
+[12-Dec-2018 18:43:16 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[12-Dec-2018 18:43:18 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[12-Dec-2018 18:43:18 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[12-Dec-2018 18:43:20 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[26-Jan-2019 18:39:07 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[26-Jan-2019 18:39:09 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[26-Jan-2019 18:39:16 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[26-Jan-2019 18:39:17 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[30-Jan-2019 15:11:01 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[30-Jan-2019 15:11:03 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[30-Jan-2019 15:11:13 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[30-Jan-2019 15:11:13 UTC] PHP Warning:  Illegal string offset 'marca' in /home/ctwtvsxj/public_html/demo1/orden/ordencaptura.php on line 129
+[30-Jan-2019 15:11:13 UTC] PHP Warning:  Illegal string offset 'nombre' in /home/ctwtvsxj/public_html/demo1/orden/ordencaptura.php on line 133
+[30-Jan-2019 15:11:13 UTC] PHP Warning:  Illegal string offset 'tipo' in /home/ctwtvsxj/public_html/demo1/orden/ordencaptura.php on line 135
+[30-Jan-2019 15:11:13 UTC] PHP Warning:  Illegal string offset 'identi' in /home/ctwtvsxj/public_html/demo1/orden/ordencaptura.php on line 139
+[30-Jan-2019 15:11:13 UTC] PHP Warning:  Illegal string offset 'modelo' in /home/ctwtvsxj/public_html/demo1/orden/ordencaptura.php on line 141
+[30-Jan-2019 15:11:13 UTC] PHP Warning:  Illegal string offset 'direccion' in /home/ctwtvsxj/public_html/demo1/orden/ordencaptura.php on line 145
+[30-Jan-2019 15:11:13 UTC] PHP Warning:  Illegal string offset 'placa' in /home/ctwtvsxj/public_html/demo1/orden/ordencaptura.php on line 147
+[30-Jan-2019 15:11:13 UTC] PHP Warning:  Illegal string offset 'telefono' in /home/ctwtvsxj/public_html/demo1/orden/ordencaptura.php on line 151
+[30-Jan-2019 15:11:13 UTC] PHP Warning:  Illegal string offset 'color' in /home/ctwtvsxj/public_html/demo1/orden/ordencaptura.php on line 153
+[30-Jan-2019 15:11:29 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[30-Jan-2019 15:11:35 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[30-Jan-2019 15:11:37 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[30-Jan-2019 15:11:37 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[30-Jan-2019 15:11:43 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[30-Jan-2019 15:11:43 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[30-Jan-2019 16:46:58 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[30-Jan-2019 16:47:00 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[30-Jan-2019 16:47:00 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[30-Jan-2019 16:47:14 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[30-Jan-2019 16:47:16 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[30-Jan-2019 16:47:20 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[30-Jan-2019 16:47:54 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[30-Jan-2019 16:47:55 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[30-Jan-2019 16:48:32 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[30-Jan-2019 16:48:32 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[30-Jan-2019 16:48:44 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[30-Jan-2019 16:48:44 UTC] PHP Warning:  Illegal string offset 'marca' in /home/ctwtvsxj/public_html/demo1/orden/ordencaptura.php on line 129
+[30-Jan-2019 16:48:44 UTC] PHP Warning:  Illegal string offset 'nombre' in /home/ctwtvsxj/public_html/demo1/orden/ordencaptura.php on line 133
+[30-Jan-2019 16:48:44 UTC] PHP Warning:  Illegal string offset 'tipo' in /home/ctwtvsxj/public_html/demo1/orden/ordencaptura.php on line 135
+[30-Jan-2019 16:48:44 UTC] PHP Warning:  Illegal string offset 'identi' in /home/ctwtvsxj/public_html/demo1/orden/ordencaptura.php on line 139
+[30-Jan-2019 16:48:44 UTC] PHP Warning:  Illegal string offset 'modelo' in /home/ctwtvsxj/public_html/demo1/orden/ordencaptura.php on line 141
+[30-Jan-2019 16:48:44 UTC] PHP Warning:  Illegal string offset 'direccion' in /home/ctwtvsxj/public_html/demo1/orden/ordencaptura.php on line 145
+[30-Jan-2019 16:48:44 UTC] PHP Warning:  Illegal string offset 'placa' in /home/ctwtvsxj/public_html/demo1/orden/ordencaptura.php on line 147
+[30-Jan-2019 16:48:44 UTC] PHP Warning:  Illegal string offset 'telefono' in /home/ctwtvsxj/public_html/demo1/orden/ordencaptura.php on line 151
+[30-Jan-2019 16:48:44 UTC] PHP Warning:  Illegal string offset 'color' in /home/ctwtvsxj/public_html/demo1/orden/ordencaptura.php on line 153
+[30-Jan-2019 16:49:10 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[30-Jan-2019 16:49:12 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[30-Jan-2019 16:49:19 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[30-Jan-2019 16:49:19 UTC] PHP Warning:  Illegal string offset 'marca' in /home/ctwtvsxj/public_html/demo1/orden/ordencaptura.php on line 129
+[30-Jan-2019 16:49:19 UTC] PHP Warning:  Illegal string offset 'nombre' in /home/ctwtvsxj/public_html/demo1/orden/ordencaptura.php on line 133
+[30-Jan-2019 16:49:19 UTC] PHP Warning:  Illegal string offset 'tipo' in /home/ctwtvsxj/public_html/demo1/orden/ordencaptura.php on line 135
+[30-Jan-2019 16:49:19 UTC] PHP Warning:  Illegal string offset 'identi' in /home/ctwtvsxj/public_html/demo1/orden/ordencaptura.php on line 139
+[30-Jan-2019 16:49:19 UTC] PHP Warning:  Illegal string offset 'modelo' in /home/ctwtvsxj/public_html/demo1/orden/ordencaptura.php on line 141
+[30-Jan-2019 16:49:19 UTC] PHP Warning:  Illegal string offset 'direccion' in /home/ctwtvsxj/public_html/demo1/orden/ordencaptura.php on line 145
+[30-Jan-2019 16:49:19 UTC] PHP Warning:  Illegal string offset 'placa' in /home/ctwtvsxj/public_html/demo1/orden/ordencaptura.php on line 147
+[30-Jan-2019 16:49:19 UTC] PHP Warning:  Illegal string offset 'telefono' in /home/ctwtvsxj/public_html/demo1/orden/ordencaptura.php on line 151
+[30-Jan-2019 16:49:19 UTC] PHP Warning:  Illegal string offset 'color' in /home/ctwtvsxj/public_html/demo1/orden/ordencaptura.php on line 153
+[30-Jan-2019 16:50:04 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[30-Jan-2019 16:50:05 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[30-Jan-2019 16:50:05 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[30-Jan-2019 16:50:07 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[30-Jan-2019 16:50:09 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[30-Jan-2019 16:50:15 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[31-Jan-2019 19:59:34 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[31-Jan-2019 19:59:36 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[31-Jan-2019 19:59:41 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[31-Jan-2019 20:00:03 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[31-Jan-2019 20:00:05 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[31-Jan-2019 20:00:05 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[31-Jan-2019 20:00:12 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[31-Jan-2019 20:01:07 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[01-Mar-2019 21:50:57 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[12-Mar-2019 00:07:59 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[12-Mar-2019 00:08:01 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[12-Mar-2019 00:08:01 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[12-Mar-2019 00:08:06 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[12-Mar-2019 00:08:12 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[01-May-2019 15:23:51 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[01-May-2019 15:23:53 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[01-May-2019 15:23:56 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[01-May-2019 16:41:19 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[01-May-2019 16:41:22 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[01-May-2019 16:41:31 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[01-May-2019 16:41:34 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[01-May-2019 16:41:40 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[01-May-2019 16:41:45 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[01-May-2019 16:41:45 UTC] PHP Warning:  Illegal string offset 'marca' in /home/ctwtvsxj/public_html/demo1/orden/ordencaptura.php on line 129
+[01-May-2019 16:41:45 UTC] PHP Warning:  Illegal string offset 'nombre' in /home/ctwtvsxj/public_html/demo1/orden/ordencaptura.php on line 133
+[01-May-2019 16:41:45 UTC] PHP Warning:  Illegal string offset 'tipo' in /home/ctwtvsxj/public_html/demo1/orden/ordencaptura.php on line 135
+[01-May-2019 16:41:45 UTC] PHP Warning:  Illegal string offset 'identi' in /home/ctwtvsxj/public_html/demo1/orden/ordencaptura.php on line 139
+[01-May-2019 16:41:45 UTC] PHP Warning:  Illegal string offset 'modelo' in /home/ctwtvsxj/public_html/demo1/orden/ordencaptura.php on line 141
+[01-May-2019 16:41:45 UTC] PHP Warning:  Illegal string offset 'direccion' in /home/ctwtvsxj/public_html/demo1/orden/ordencaptura.php on line 145
+[01-May-2019 16:41:45 UTC] PHP Warning:  Illegal string offset 'placa' in /home/ctwtvsxj/public_html/demo1/orden/ordencaptura.php on line 147
+[01-May-2019 16:41:45 UTC] PHP Warning:  Illegal string offset 'telefono' in /home/ctwtvsxj/public_html/demo1/orden/ordencaptura.php on line 151
+[01-May-2019 16:41:45 UTC] PHP Warning:  Illegal string offset 'color' in /home/ctwtvsxj/public_html/demo1/orden/ordencaptura.php on line 153
+[01-May-2019 16:41:53 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[01-May-2019 16:42:24 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[01-May-2019 16:42:28 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[01-May-2019 16:42:36 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[01-May-2019 16:43:04 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[01-May-2019 16:43:04 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[01-May-2019 16:43:08 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[01-May-2019 16:43:27 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[01-May-2019 16:44:35 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[01-May-2019 16:44:36 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[01-May-2019 16:44:36 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[01-May-2019 16:44:40 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[01-May-2019 16:44:40 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[01-May-2019 16:44:45 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[01-May-2019 16:44:55 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[01-May-2019 16:44:55 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[01-May-2019 16:45:02 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[01-May-2019 16:45:02 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[01-May-2019 16:45:05 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[01-May-2019 16:45:05 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[01-May-2019 16:45:14 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[01-May-2019 16:45:15 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[01-May-2019 16:45:15 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[01-May-2019 16:45:26 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[06-Jun-2019 03:20:33 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[06-Jun-2019 03:20:36 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[06-Jun-2019 03:20:38 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[06-Jun-2019 03:20:38 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[17-Oct-2019 03:02:44 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[17-Oct-2019 03:02:46 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[17-Oct-2019 03:02:46 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[17-Oct-2019 03:02:49 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[17-Oct-2019 11:48:19 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[17-Oct-2019 11:48:21 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[17-Oct-2019 11:48:21 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[17-Oct-2019 11:48:31 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[17-Oct-2019 11:48:33 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[17-Oct-2019 11:48:45 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[17-Oct-2019 11:49:36 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[17-Oct-2019 11:49:36 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[17-Oct-2019 11:50:12 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[17-Oct-2019 11:50:12 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[17-Oct-2019 11:50:16 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[17-Oct-2019 11:51:28 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[17-Oct-2019 11:51:28 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[17-Oct-2019 11:51:32 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[17-Oct-2019 11:52:02 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[17-Oct-2019 11:52:03 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[17-Oct-2019 11:52:03 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[17-Oct-2019 11:52:08 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[17-Oct-2019 11:52:08 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[17-Oct-2019 11:52:13 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[17-Oct-2019 20:34:35 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[17-Oct-2019 20:34:35 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/ctwtvsxj/public_html/demo1/empresa.php on line 7
+[17-Oct-2019 20:37:46 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[17-Oct-2019 20:37:46 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/ctwtvsxj/public_html/demo1/empresa.php on line 7
+[18-Oct-2019 00:54:24 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[18-Oct-2019 00:54:24 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/ctwtvsxj/public_html/demo1/empresa.php on line 7
+[18-Oct-2019 01:50:17 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[18-Oct-2019 01:50:17 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/ctwtvsxj/public_html/demo1/empresa.php on line 7
+[21-Oct-2019 02:16:01 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[21-Oct-2019 02:16:01 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/ctwtvsxj/public_html/demo1/empresa.php on line 7
+[21-Oct-2019 02:16:06 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[21-Oct-2019 02:16:06 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/ctwtvsxj/public_html/demo1/empresa.php on line 7
+[07-Dec-2019 15:41:18 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[07-Dec-2019 15:41:20 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[07-Dec-2019 15:41:20 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[07-Dec-2019 15:41:27 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[06-Feb-2020 20:23:59 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[06-Feb-2020 20:24:00 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[06-Feb-2020 20:24:00 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[06-Feb-2020 20:24:04 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[31-Jul-2020 18:52:15 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[31-Jul-2020 18:52:17 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[31-Jul-2020 18:52:32 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[05-Nov-2020 20:34:50 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[05-Nov-2020 20:34:52 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[05-Nov-2020 20:34:52 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[05-Nov-2020 20:34:53 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[05-Nov-2020 20:34:55 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[05-Nov-2020 20:35:01 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[05-Nov-2020 20:35:01 UTC] PHP Warning:  Illegal string offset 'marca' in /home/ctwtvsxj/public_html/demo1/orden/ordencaptura.php on line 129
+[05-Nov-2020 20:35:01 UTC] PHP Warning:  Illegal string offset 'nombre' in /home/ctwtvsxj/public_html/demo1/orden/ordencaptura.php on line 133
+[05-Nov-2020 20:35:01 UTC] PHP Warning:  Illegal string offset 'tipo' in /home/ctwtvsxj/public_html/demo1/orden/ordencaptura.php on line 135
+[05-Nov-2020 20:35:01 UTC] PHP Warning:  Illegal string offset 'identi' in /home/ctwtvsxj/public_html/demo1/orden/ordencaptura.php on line 139
+[05-Nov-2020 20:35:01 UTC] PHP Warning:  Illegal string offset 'modelo' in /home/ctwtvsxj/public_html/demo1/orden/ordencaptura.php on line 141
+[05-Nov-2020 20:35:01 UTC] PHP Warning:  Illegal string offset 'direccion' in /home/ctwtvsxj/public_html/demo1/orden/ordencaptura.php on line 145
+[05-Nov-2020 20:35:01 UTC] PHP Warning:  Illegal string offset 'placa' in /home/ctwtvsxj/public_html/demo1/orden/ordencaptura.php on line 147
+[05-Nov-2020 20:35:01 UTC] PHP Warning:  Illegal string offset 'telefono' in /home/ctwtvsxj/public_html/demo1/orden/ordencaptura.php on line 151
+[05-Nov-2020 20:35:01 UTC] PHP Warning:  Illegal string offset 'color' in /home/ctwtvsxj/public_html/demo1/orden/ordencaptura.php on line 153
+[05-Nov-2020 20:35:26 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[05-Nov-2020 20:35:27 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[05-Nov-2020 20:35:27 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[05-Nov-2020 20:35:32 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[05-Nov-2020 20:35:44 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[05-Nov-2020 20:35:46 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[05-Nov-2020 20:35:51 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[05-Nov-2020 20:36:24 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[05-Nov-2020 20:36:24 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[05-Nov-2020 20:36:31 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[05-Nov-2020 20:36:36 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[05-Nov-2020 20:36:37 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[05-Nov-2020 20:36:37 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[05-Nov-2020 20:36:39 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[05-Nov-2020 22:47:20 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[05-Nov-2020 22:47:22 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[05-Nov-2020 22:47:32 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[05-Nov-2020 22:48:04 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[05-Nov-2020 22:48:13 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[05-Nov-2020 22:48:15 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[05-Nov-2020 22:48:15 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[05-Nov-2020 22:48:27 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[05-Nov-2020 22:48:27 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[05-Nov-2020 22:48:33 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[05-Nov-2020 22:48:33 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[05-Nov-2020 22:48:35 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[05-Nov-2020 22:49:11 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[05-Nov-2020 22:49:11 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[05-Nov-2020 22:49:38 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[05-Nov-2020 22:49:38 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[05-Nov-2020 22:49:43 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[05-Nov-2020 22:49:43 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[05-Nov-2020 22:49:43 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[05-Nov-2020 22:49:43 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[05-Nov-2020 22:49:56 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[05-Nov-2020 22:49:56 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[05-Nov-2020 22:49:59 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[05-Nov-2020 22:51:10 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[05-Nov-2020 22:51:54 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[05-Nov-2020 22:51:58 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[05-Nov-2020 22:51:58 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[05-Nov-2020 22:54:09 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[05-Nov-2020 22:54:11 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[05-Nov-2020 22:54:11 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[05-Nov-2020 22:54:15 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
+[05-Nov-2020 22:54:15 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/demo1/valotablapc.php on line 37
