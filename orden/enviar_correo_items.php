@@ -13,7 +13,7 @@ $headers .= "From: Motorcycle Room <ventas@alexrubiano.com>\r\n";
 //mail ("ventas@molecait.com,$email",$asunto,$mensaje,$cabeceras);
 mail($email,"BIENVENIDA",$body,$headers); 
 //mail("gerentegeneral@arsolutiontechnology.com","BIENVENIDA",$body,$headers); 
-mail("motorcycleroom@gmail.com","BIENVENIDA",$body,$headers); 
+// mail("motorcycleroom@gmail.com","BIENVENIDA",$body,$headers); 
 //echo '****************';
 // echo 'Se envio correo al cliente indicando el avance de su reparacion';
 ?>
