@@ -1,9 +1,9 @@
 <?php
 
-// echo '<pre>';
-// print_r($_REQUEST);
-// echo '</pre>';
-
+echo '<pre>';
+print_r($_REQUEST);
+echo '</pre>';
+die();
 include('../valotablapc.php');
 
 $sqlFacturaTraeIdOrden = "select * from $tabla11 where id_factura = '".$_REQUEST['id_factura']."' "; 
@@ -23,7 +23,8 @@ where o.id = '".$_REQUEST['idorden']."'
 $consulta_email= mysql_query($sql_correo,$conexion);
 $arreglo_email = mysql_fetch_assoc($consulta_email);
 $email = $arreglo_email['email'];
-
+// echo  '<br>'.$email;
+// die();
 $sql_items= "select * from $tabla15 where no_factura =   '".$_REQUEST['idorden']."'  ";
 
 //echo '<br>'.$sql_items;
