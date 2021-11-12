@@ -6,6 +6,15 @@
 
 include('../valotablapc.php');
 
+$sqlFacturaTraeIdOrden = "select * from $tabla11 where id_factura = '".$_REQUEST['id_factura']."' "; 
+$consultaIdOrden = mysql_query($sqlFacturaTraeIdOrden,$conexion);
+$arregloIdOrden = mysql_fetch_assoc($consultaIdOrden);
+$idOrden = $arregloIdOrden['id_orden'];
+$noFactura = $arregloIdOrden['numero_factura'];
+$placa = $arregloIdOrden['placa'];
+// echo '<br>'.$idOrden;
+// die();
+
 $sql_correo = "select cli.email as email from $tabla14 o
 inner join $tabla4 c on (c.placa = o.placa)
 inner join $tabla3 cli on (cli.idcliente=c.propietario)
@@ -34,11 +43,11 @@ $body = 'KAYMO
 
 Te informa el avance de tu orden de reparacion
 
-Placa: '.$_REQUEST['placa'].'  Orden No: '.$_REQUEST['idorden'].'
+Placa: '.$placa.'  Factura No: '.$noFactura.'
 
 Puedes ver tu orden de reparacion en el siguiente link:
 
-https://www.alexrubiano.com/demo1/ordendetrabajo/'.$_REQUEST['idorden'].'
+https://www.alexrubiano.com/demo1/factura/'.$_REQUEST['id_factura'].'
 
 
 KAYMO. 

@@ -3,4 +3,6 @@ RewriteEngine on
 
 RewriteRule ^ordendetrabajo/([0-9]+)$ orden/orden_imprimir_honda_cero_sin_sesion.php?idorden=$1
 
+RewriteRule ^factura/([0-9]+)$ facturas/orden_imprimir_honda_cero_sin_sesion.php?id_factura=$1
+
 
