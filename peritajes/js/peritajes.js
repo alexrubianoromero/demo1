@@ -46,7 +46,18 @@ function grabarPeritaje(){
     if(valida != 0){
         var idcarro = document.getElementById("idCarroPeritaje").value;
         var kilometraje = document.getElementById("kilometrajeperitaje").value;
+        var amortiguadores = document.getElementById("amortiguadores").value;
+        var exosto = document.getElementById("exosto").value;
+        var arrastre = document.getElementById("arrastre").value;
+        var llantas = document.getElementById("llantas").value;
+        var sillin = document.getElementById("sillin").value;
+        var velocimetro = document.getElementById("velocimetro").value;
+        var frenos = document.getElementById("frenos").value;
+        var luces = document.getElementById("luces").value;
+        var motor = document.getElementById("motor").value;
+        var tacometro = document.getElementById("tacometro").value;
         var observaciones = document.getElementById("observacionesPeritaje").value;
+        observacionesPeritaje
         const http=new XMLHttpRequest();
         const url = 'index.php';
         http.onreadystatechange = function(){
@@ -60,6 +71,16 @@ function grabarPeritaje(){
         http.send("opcion=grabar"
             + "&idcarro="+idcarro
             + "&kilometraje="+kilometraje
+            + "&amortiguadores="+amortiguadores
+            + "&exosto="+exosto
+            + "&arrastre="+arrastre
+            + "&llantas="+llantas
+            + "&sillin="+sillin
+            + "&velocimetro="+velocimetro
+            + "&frenos="+frenos
+            + "&luces="+luces
+            + "&motor="+motor
+            + "&tacometro="+tacometro
             + "&observaciones="+observaciones
             );
     }

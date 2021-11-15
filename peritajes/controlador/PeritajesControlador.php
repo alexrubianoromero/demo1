@@ -23,7 +23,10 @@ class PeritajesControlador{
             $this->buscarPlaca($this->conexion,$_REQUEST['placa']);
         } 
         if($_REQUEST['opcion']=='grabar'){
-
+        //          echo '<pre>';
+        // print_r($_REQUEST);
+        // echo '</pre>';
+        // die();  
             $this->grabarPeritaje($this->conexion,$_REQUEST);
         } 
         if($_REQUEST['opcion']=='consultaPeritajeId'){

@@ -325,7 +325,7 @@ class PeritajesVista{
                 </tr>    
                 <tr>
                     <td><label>Llantas:</label></td>
-                    <td><?php echo  $datosPeritaje[0]['llatas'];?></td>
+                    <td><?php echo  $datosPeritaje[0]['llantas'];?></td>
                 </tr>    
                 <tr>
                     <td><label>Sillin:</label></td>

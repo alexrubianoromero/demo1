@@ -54,12 +54,23 @@ class PeritajesModelo{
     }
     
     public function grabarPeritaje($conexion,$request){
-        $sql = "INSERT INTO peritajes  (idcarro,fecha,kilometraje,observaciones)
+        $sql = "INSERT INTO peritajes  (idcarro,fecha,kilometraje,observaciones,amortiguadores
+                ,exosto,arrastre, llantas,sillin,velocimetro, frenos,luces,motor,tacometro)
                 VALUES (
                 '".$request['idcarro']."', 
                 now(), 
-                '".$request['kilometraje']."', 
-                '".$request['observaciones']."'
+                '".$request['kilometraje']."' 
+                ,'".$request['observaciones']."'
+                ,'".$request['amortiguadores']."'
+                ,'".$request['exosto']."'
+                ,'".$request['arrastre']."'
+                ,'".$request['llantas']."'
+                ,'".$request['sillin']."'
+                ,'".$request['velocimetro']."'
+                ,'".$request['frenos']."'
+                ,'".$request['luces']."'
+                ,'".$request['motor']."'
+                ,'".$request['tacometro']."'
                 )
         ";
         // echo '<br>'.$sql;
