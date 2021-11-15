@@ -6,12 +6,18 @@ class PeritajesModelo{
     {
         echo $tabla3; 
     }
+
     public function traerPeritajes($conexion){
-        $sql= "select idperitaje as Peritaje, idcarro, fecha from peritajes ";
+        $sql= "SELECT p.idperitaje as id, c.placa, p.fecha,p.kilometraje as klm,p.observaciones as observ 
+        
+               FROM  peritajes p
+               INNER JOIN  carros c ON c.idcarro = p.idcarro
+               ORDER BY  idperitaje DESC";
+            //    echo '<br>'.$sql;
         $consulta = mysql_query($sql,$conexion); 
         return $this->get_table_assoc($consulta);
-     
     }
+
     public function get_table_assoc($datos)
 		{
 		 				$arreglo_assoc='';
@@ -25,6 +31,8 @@ class PeritajesModelo{
 
     public function buscarPlaca($conexion,$placa){
         $sql = "select * from carros where placa = '".$placa ."'  ";
+        // echo '<br>'.$sql;
+        // die();
         $consulta = mysql_query($sql,$conexion); 
         $filas = mysql_num_rows($consulta);
         $datos = $this->get_table_assoc($consulta);
@@ -32,6 +40,7 @@ class PeritajesModelo{
         $respuesta['datos']=  $datos;  
         return $respuesta; 
     }    
+
     public function buscarCliente0Id($conexion,$id){
         $sql="select * from cliente0 where idcliente = '".$id."'  "; 
         // echo '<br>'.$sql;
@@ -44,6 +53,34 @@ class PeritajesModelo{
         return $respuesta; 
     }
     
+    public function grabarPeritaje($conexion,$request){
+        $sql = "INSERT INTO peritajes  (idcarro,fecha,kilometraje,observaciones)
+                VALUES (
+                '".$request['idcarro']."', 
+                now(), 
+                '".$request['kilometraje']."', 
+                '".$request['observaciones']."'
+                )
+        ";
+        // echo '<br>'.$sql;
+        // die(); 
+        $consulta = mysql_query($sql,$conexion); 
+    }
+
+      public function traerPeritajeId($conexion,$id){
+        $sql= "SELECT p.idperitaje as id, c.placa, p.fecha,kilometraje as klm,p.observaciones as observ,
+        p.amortiguadores,p.exosto, p.arrastre, p.llantas, p.sillin, p.velocimetro, p.frenos,p.luces
+        ,p.motor, p.tacometro 
+               FROM  peritajes p
+               INNER JOIN  carros c ON c.idcarro = p.idcarro
+               WHERE p.idperitaje = ".$id."
+               ORDER BY  idperitaje DESC";
+            //    echo '<br>'.$sql;
+            //    die();
+        $consulta = mysql_query($sql,$conexion); 
+        return $this->get_table_assoc($consulta);
+    }
+
 }
 
 

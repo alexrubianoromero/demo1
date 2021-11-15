@@ -22,6 +22,18 @@ class PeritajesControlador{
 
             $this->buscarPlaca($this->conexion,$_REQUEST['placa']);
         } 
+        if($_REQUEST['opcion']=='grabar'){
+
+            $this->grabarPeritaje($this->conexion,$_REQUEST);
+        } 
+        if($_REQUEST['opcion']=='consultaPeritajeId'){
+        //      echo '<pre>';
+        // print_r($datosCliente0);
+        // echo '</pre>';
+        // die();   
+            $this->consultaPeritajeId($conexion,$_REQUEST['id']);
+        } 
+
     }  
     
     public function pantallaInicial($conexion){
@@ -47,6 +59,26 @@ class PeritajesControlador{
         // echo '</pre>';
         // die();
       
+    }
+    public function grabarPeritaje($conexion,$request){
+        // echo '<pre>';
+        // print_r($request);
+        // echo '</pre>';
+        // die();
+        $this->modelo->grabarPeritaje($conexion,$request);
+        $this->pantallaInicial($conexion);
+    }
+
+    public function consultaPeritajeId($conexion,$id){
+        $datosPeritaje =  $this->modelo->traerPeritajeId($conexion,$id);
+        // echo '<pre>';
+        // print_r($datosPeritaje);
+        // echo '</pre>';
+        // die();
+        $datosPlaca = $this->modelo->buscarPlaca($conexion,$datosPeritaje[0]['placa']);
+        $datosCliente0 = $this->modelo->buscarCliente0Id($conexion,$datosPlaca['datos'][0]['propietario']);
+
+        $this->vista->pantallaDatosPeritajeId($datosPeritaje,$datosPlaca,$datosCliente0);
     }
 }
 

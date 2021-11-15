@@ -24,8 +24,12 @@ class PeritajesVista{
                         <?php $this->mostrarPeritajes($peritajes);?>
                     </div>
                 </div>
+                <?php  $this->modal(); ?>
             </body>
             </html>
+
+            <script src = "../js/jquery-2.1.1.js"> </script>    
+            <script src="../js/bootstrap.min.js"></script>
             <script src="js/peritajes.js"></script>
         <?php
     }
@@ -33,22 +37,49 @@ class PeritajesVista{
      
 
     public function mostrarPeritajes($peritajes){
-        echo '<table class="table">';
+        echo '<table class="table table-striped">';
             echo '<thead>';
                 $this->ponerTitulos($peritajes); 
             echo '</thead>';
             echo '<tbody>';
                 foreach($peritajes as $peri){
                     echo '<tr>';
-                    echo '<td>'.$peri['Peritaje'].'</td>'; 
-                    echo '<td>'.$peri['idcarro'].'</td>'; 
+                    echo '<td><button  onclick="muestreDetallePeritaje('.$peri['id'].')" id="btnverperitaje" class="btn btn-primary" data-toggle="modal" data-target="#myModal2">'.$peri['id'].'</button></td>'; 
+                    echo '<td>'.$peri['placa'].'</td>'; 
                     echo '<td>'.$peri['fecha'].'</td>'; 
+                    echo '<td>'.$peri['klm'].'</td>'; 
+                    echo '<td>'.$peri['observ'].'</td>'; 
                     echo '</tr>';
                 }
             echo '</tbody>';
         echo '</table>';
     }
 
+    public function modal (){
+        ?>
+         <!-- <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal2">
+         Launch demo modal
+         </button> -->
+          <div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+              <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                  <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                      <h4 class="modal-title" id="myModalLabel">Detalle Peritaje</h4>
+                  </div>
+                  <div id="cuerpoModal" class="modal-body">
+                      el modal 
+                      
+                  </div>
+                  <div class="modal-footer">
+                      <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                      <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+                  </div>
+                  </div>
+              </div>
+          </div>
+        <?php
+    }
     public function nuevoPeritaje(){
         ?><div id="divPregunteDatos">
             <div id="divPreguntePlaca">
@@ -71,9 +102,13 @@ class PeritajesVista{
         ?>
         <div class="row">
             <div class=" col-lg-3 col-md-4 col-sm-6 col-xs-12">
+               
                 <table class="table">
                 <tr>
-                    <td><label>Propietario:</label></td>
+                    <td>
+                    <input type="hidden" id="idCarroPeritaje" value = "<?php  echo $datosPlaca[0]['idcarro']; ?>">
+                        <label>Propietario:</label>
+                    </td>
                     <td><?php   echo $datosCliente0[0]['nombre']; ?></td>
                 </tr>    
                 <tr>
@@ -169,13 +204,13 @@ class PeritajesVista{
                     <td><label>Observaciones:</label></td>
                 </tr> 
                 <tr>
-                    <td><textarea class="form-control" id="observacionesPeritaje" cols="70%" rows="10"></textarea></td>
+                    <td><textarea class="form-control" id="observacionesPeritaje" cols="70%" rows="6"></textarea></td>
                 </tr> 
                 </table>
             </div>
        </div>   
         <div class="row">
-            <button onclick="prueba();" class="btn btn-primary">Prueba</button>
+            <!-- <button onclick="prueba();" class="btn btn-primary">Prueba</button> -->
             <button onclick="grabarPeritaje();" id="btnGrabarperitaje" class="btn btn-primary btn-block btn-lg">Grabar_Peritaje</button>
         </div>
         <?php
@@ -221,6 +256,132 @@ class PeritajesVista{
 
     
     }
+  public function pantallaDatosPeritajeId($datosPeritaje,$datosPlaca,$datosCliente0){
+      $datosPlaca = $datosPlaca['datos'];
+    //   $datosPeritaje = $datosPeritaje['datos'];
+    //   echo '<pre>';
+    //   print_r($datosPeritaje);
+    //   echo '</pre>';
+    //   die();
+        ?>
+         <div class="row">
+            <div class=" col-lg-3 col-md-4 col-sm-6 col-xs-12">
+               
+                <table class="table">
+                <tr>
+                    <td>
+                    <input type="hidden" id="idCarroPeritaje" value = "<?php  echo $datosPlaca[0]['idcarro']; ?>">
+                        <label>Propietario:</label>
+                    </td>
+                    <td><?php   echo $datosCliente0['datos'][0]['nombre']; ?></td>
+                </tr>    
+                <tr>
+                    <td><label>Marca:</label></td>
+                    <td><?php   echo $datosPlaca[0]['marca']; ?></td>
+                </tr>    
+                <tr>
+                    <td><label>Color:</label></td>
+                    <td><?php   echo $datosPlaca[0]['color']; ?></td>
+                </tr>    
+                <tr>
+                    <td><label>VenciSoat:</label></td>
+                    <td><?php   echo $datosPlaca[0]['vencisoat']; ?></td>
+                </tr>    
+                
+            </table>
+            </div>
+            <div class="col-xs-12">
+            <table class="table">
+            <tr>
+                <td><label>Modelo:</label></td>
+                <td><?php   echo $datosPlaca[0]['modelo']; ?></td>
+            </tr>    
+            <tr>
+                <td><label>PLaca:</label></td>
+                <td><?php   echo $datosPlaca[0]['placa']; ?></td>
+            </tr>    
+            <tr>
+                <td><label>Kilometraje:</label></td>
+                <td><?php   echo $datosPeritaje[0]['klm']; ?></td>
+            </tr>    
+            </table>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-xs-12">
+                <table class="table">
+                <tr>
+                    <td><label>Amortiguadores:</label></td>
+                    <td><?php echo  $datosPeritaje[0]['amortiguadores']; ?></td>
+                </tr>    
+                <tr>
+                    <td><label>Exosto:</label></td>
+                    <td><?php echo  $datosPeritaje[0]['exosto']; ?></td>
+                </tr>    
+                <tr>
+                    <td><label>Kit de Arrastre:</label></td>
+                    <td><?php echo  $datosPeritaje[0]['arrastre'];?></td>
+                </tr>    
+                <tr>
+                    <td><label>Llantas:</label></td>
+                    <td><?php echo  $datosPeritaje[0]['llatas'];?></td>
+                </tr>    
+                <tr>
+                    <td><label>Sillin:</label></td>
+                    <td><?php echo  $datosPeritaje[0]['sillin'];?></td>
+                </tr>    
+                <tr>
+                    <td><label>Velocimetro:</label></td>
+                    <td><?php echo  $datosPeritaje[0]['velocimetro'];?></td>
+                </tr>    
+                </table>
+            </div>  
+        </div>
+        <div class="row">
+            <div class="col-xs-12">
+                <table class="table">
+                <tr>
+                    <td><label>Frenos:</label></td>
+                    <td><?php echo  $datosPeritaje[0]['frenos'];?></td>
+                </tr>    
+                <tr>
+                    <td><label>Luces:</label></td>
+                    <td><?php echo  $datosPeritaje[0]['luces'];?></td>
+                </tr>    
+                <tr>
+                    <td><label>Motor:</label></td>
+                    <td><?php echo  $datosPeritaje[0]['motor'];?></td>
+                </tr>    
+                <tr>
+                    <td><label>Tacometro:</label></td>
+                    <td><?php echo  $datosPeritaje[0]['tacometro'];?></td>
+                </tr>    
+                 
+                </table>
+            </div>  
+        </div>
+        <div class="row">
+            <div class="col-xs-12">
+                <table class="table">
+                <tr>
+                    <td><label>Observaciones:</label></td>
+                </tr> 
+                <tr>
+                    <td><textarea class="form-control" id="observacionesPeritaje" cols="70%" rows="6">
+                        <?php echo $datosPeritaje[0]['observ']?>
+                    </textarea></td>
+                </tr> 
+                </table>
+            </div>
+       </div>   
+        <div class="row">
+            <!-- <button onclick="grabarPeritaje();" id="btnGrabarperitaje" class="btn btn-primary btn-block btn-lg">Grabar_Peritaje</button> -->
+        </div>
+
+        <?php
+  }
+    
 }
 
 ?>
