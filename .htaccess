@@ -5,4 +5,5 @@ RewriteRule ^ordendetrabajo/([0-9]+)$ orden/orden_imprimir_honda_cero_sin_sesion
 
 RewriteRule ^factura/([0-9]+)$ facturas/orden_imprimir_honda_cero_sin_sesion.php?id_factura=$1
 
+RewriteRule ^peritaje/([0-9]+)$ peritajes/vista/imprimirPeritaje.php?id=$1
 

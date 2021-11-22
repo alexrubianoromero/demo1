@@ -52,6 +52,7 @@ class PeritajesVista{
             echo '<tr>';
             echo '<th>Id</th>'; 
             echo '<th><i class="fas fa-edit"></i></th>'; 
+            echo '<th><i class="fas fa-print"></i></th>'; 
                
             echo '<th>Placa</th>';    
             echo '<th>Fecha</th>';    
@@ -64,6 +65,8 @@ class PeritajesVista{
                     echo '<tr>';
                     echo '<td><button  onclick="muestreDetallePeritaje('.$peri['id'].')" id="btnverperitaje" class="btn btn-primary" data-toggle="modal" data-target="#myModal2">'.$peri['id'].'</button></td>';
                     echo '<td><button  onclick="editarPeritaje('.$peri['id'].')"><i class="fas fa-edit" data-toggle="modal" data-target="#myModal1"></i></button></td>'; 
+                    // echo '<td><button  onclick="imprimirPeritaje('.$peri['id'].')" ><i class="fas fa-edit" >Imp</button></td>'; 
+                    echo '<td><a target="_blanck" href="../peritajes/vista/imprimirPeritaje.php?id='.$peri['id'].' " class="btn btn-Primary"><i class="fas fa-print"></i></a></td>'; 
                     echo '<td>'.$peri['placa'].'</td>'; 
                     echo '<td>'.$peri['fecha'] .'</td>'; 
                     echo '<td>'.$peri['klm'].'</td>'; 
@@ -177,7 +180,7 @@ class PeritajesVista{
                 <tr>
                     <td>
                     <input type="hidden" id="idCarroPeritaje" value = "<?php  echo $datosPlaca[0]['idcarro']; ?>">
-                        Propietario:
+                       <label> Propietario: </label>
                     </td>
                     <td><?php   echo $datosCliente0[0]['nombre']; ?></td>
                 </tr>    
@@ -446,8 +449,9 @@ class PeritajesVista{
                 </table>
             </div>
        </div>   
+       <div id="divAvisosPeritaje"></div>
         <div class="row" align="center">
-            <!-- <button onclick="editarPeritaje(<?php  echo $datosPeritaje[0]['id'] ?>);" id="btnEditarPeritaje" class="btn btn-primary  btn-lg"  data-toggle="modal" data-target="#myModal1">Editar_Peritaje</button> -->
+            <button onclick="correoPeritaje(<?php  echo $datosPeritaje[0]['id'] ?>);" id="correoPeritaje" class="btn btn-primary  btn-lg" >Enviar Correo Peritaje</button>
         </div>
 
         <?php
@@ -583,42 +587,94 @@ public function pintarPuntosperitajeModificacion($datosPeritaje)
         </div>
         <?php
     }
-public function nuevoPropietario(){
-    ?>
-       <div id="div_pregunte_datos_propietario">
-           <div id="infoVerificaciones"></div>
-        <table class="table">
-            <tr>
-                <td><label>Identidad</label></td>
-                <td> <input type="text" id="identi" onchange="validarIdentidad(this.value)"></td>
-            </tr>
-            <tr>
-                <td><label>Nombre</label></td>
-                <td> <input type="text" id="nombre"></td>
-            </tr>
-            <tr>
-                <td><label>Telefono</label></td>
-                <td> <input type="text" id="telefono"></td>
-            </tr>
-            <tr>
-                <td><label>Direccion</label></td>
-                <td> <input type="text" id="direccion"></td>
-            </tr>
-            <tr>
-                <td><label>Observaciones</label></td>
-                <td> <input type="text" id="observaciones"></td>
-            </tr>
-            <tr>
-                <td colspan="2"> <button onclick="grabarPrpietario();"class="btn btn-primary btn-block btn-lg" ">GRABAR PROPIETARIO</button></td>
-            </tr>
-        </table>
-        </div>
-    <?php
-}    
-    
-public function propietarioGrabado(){
-    echo 'La informacion del propietario se guardo de forma exitosa';
-}
-}
 
+    public function nuevoPropietario(){
+        ?>
+        <div id="div_pregunte_datos_propietario">
+            <div id="infoVerificaciones"></div>
+            <table class="table">
+                <tr>
+                    <td><label>Identidad</label></td>
+                    <td> <input type="text" id="identi" onchange="validarIdentidad(this.value)"></td>
+                </tr>
+                <tr>
+                    <td><label>Nombre</label></td>
+                    <td> <input type="text" id="nombre"></td>
+                </tr>
+                <tr>
+                    <td><label>Telefono</label></td>
+                    <td> <input type="text" id="telefono"></td>
+                </tr>
+                <tr>
+                    <td><label>Direccion</label></td>
+                    <td> <input type="text" id="direccion"></td>
+                </tr>
+                <tr>
+                    <td><label>Email</label></td>
+                    <td> <input type="text" id="email"></td>
+                </tr>
+                <tr>
+                    <td><label>Observaciones</label></td>
+                    <td> <input type="text" id="observaciones"></td>
+                </tr>
+                <tr>
+                    <td colspan="2"> <button onclick="grabarPrpietario();"class="btn btn-primary btn-block btn-lg" ">GRABAR PROPIETARIO</button></td>
+                </tr>
+            </table>
+            </div>
+        <?php
+    }    
+    
+    public function propietarioGrabado(){
+        echo 'La informacion del propietario se guardo de forma exitosa';
+    }
+    public function generarCorreoPeritaje($id,$datosCliente0,$placa,$datosEmpresa){
+        if($datosEmpresa['resolucion']==''){
+            echo 'Se debe configurar la carpeta del servidor en la tabla de empresa '; 
+            die();
+        }
+        else{
+            // echo '<pre>';
+            // print_r($datosEmpresa);
+            // echo '</pre>';
+            // die();  
+    
+            $body = '
+
+            '.strtoupper($datosEmpresa['razon_social']).'
+            Te informa que el documento de tu PERITAJE lo puedes ver en el siguiente link
+
+            Placa: '.strtoupper($placa).'  Peritaje No: '.$id.'
+
+            Puedes ver tu orden de reparacion en el siguiente link:
+
+            https://www.alexrubiano.com/'.$datosEmpresa['resolucion'].'/peritaje/'.$id.'
+
+
+            '.strtoupper($datosEmpresa['razon_social']).'
+            Taller 
+            
+            O envianos un E-mail a '.$datosEmpresa['email_empresa'].'
+            Recuerda, estamos ubicados en '.$datosEmpresa['direccion'].'';  
+
+
+            $asunto = 'PERITAJE';
+            $this->enviarCorreoPeritaje($body,$datosCliente0['datos'][0]['email'],$datosEmpresa,$asunto);
+
+            echo '<p class="avisoazul">Se envio correo con el peritaje al email del cliente </p>';
+        }    
+    }
+    public function enviarCorreoPeritaje($body,$email,$datosEmpresa,$asunto){
+        // echo '<br>'.$headers;
+        // echo '<br>'.$asunto;
+        // echo '<br>'.$body;
+        // echo 'email<br>'.$email;
+        // die();
+        
+        $headers .= "From: ".$datosEmpresa['razon_social']." <ventas@alexrubiano.com>\r\n"; 
+        mail($email,$asunto,$body,$headers); 
+    }
+   
+
+}
 ?>

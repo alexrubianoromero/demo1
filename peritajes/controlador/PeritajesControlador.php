@@ -2,6 +2,7 @@
 require_once('vista/PeritajesVista.php');
 require_once('modelo/PeritajesModelo.php');
 require_once('../funciones/funciones.class.php');
+
 class PeritajesControlador{
     private $vista; 
     private $modelo;
@@ -24,7 +25,7 @@ class PeritajesControlador{
             $this->buscarPlaca($this->conexion,$_REQUEST['placa']);
         } 
         if($_REQUEST['opcion']=='grabar'){
-        //          echo '<pre>';
+        // echo '<pre>';
         // print_r($_REQUEST);
         // echo '</pre>';
         // die();  
@@ -43,6 +44,10 @@ class PeritajesControlador{
                 $this->nuevoPropietario($this->conexion);
         }
         if($_REQUEST['opcion']=='grabarPropietario'){
+        //     echo '<pre>';
+        // print_r($_REQUEST);
+        // echo '</pre>';
+        // die();
                 $this->grabarPropietario($this->conexion,$_REQUEST);
         }
         if($_REQUEST['opcion']=='cargarUltimoPropietario'){
@@ -54,6 +59,10 @@ class PeritajesControlador{
         if($_REQUEST['opcion']=='validarIdenti'){
                 $this->validarIdenti($this->conexion,$_REQUEST['identi']);
         }
+        if($_REQUEST['opcion']=='generarCorreoPeritaje'){
+                $this->generarCorreoPeritaje($this->conexion,$_REQUEST['id']);
+        }
+
 
     }  
     
@@ -93,10 +102,6 @@ class PeritajesControlador{
     public function actualizarPeritaje($conexion,$request){
         $datosPlaca = $this->modelo->actualizarPeritaje($conexion,$request);
         echo 'PERITAJE ACTUALIZADO EXITOSAMENTE';
-        // echo '<pre>';
-        // print_r($request);
-        // echo '</pre>';
-        // die();  
     }
     public function nuevoPropietario(){
         $this->vista->nuevoPropietario();
@@ -104,18 +109,12 @@ class PeritajesControlador{
     public function grabarPropietario($conexion,$request){
         $id = $this->modelo->grabarPropietario($conexion,$request);
         $this->vista->propietarioGrabado();
-        // echo 'CLIENTE NUEVO  GRABADO';
-        // echo '<br>'.$id; 
     }
     public function cargarUltimoPropietario($conexion){
         $maxId = $this->modelo->traerMaxIdCLiente0($conexion);
         funciones::select_general_condicion('cliente0',$conexion,'idcliente','nombre' , $maxId);
     }
     public function grabarVehiculo($conexion,$request){
-        // echo '<pre>';
-        // print_r($request);
-        // echo '</pre>';
-        // die();  
         $idNuevoCarro = $this->modelo->grabarVehiculo($conexion,$request);
         $this->buscarPlaca($conexion,$request['placa']);
         
@@ -125,6 +124,14 @@ class PeritajesControlador{
         if($validacion >0){
             echo '<p class="alerta1">Esta identidad ya existe en la base de datos</p> ';
         }
+    }
+    
+    public function generarCorreoPeritaje($conexion,$id){
+        $datosPeritaje =  $this->modelo->traerPeritajeId($conexion,$id);
+        $datosPlaca = $this->modelo->buscarPlaca($conexion,$datosPeritaje[0]['placa']);
+        $datosCliente0 = $this->modelo->buscarCliente0Id($conexion,$datosPlaca['datos'][0]['propietario']);
+        $datosEmpresa =  $this->modelo->traerEmpresa($conexion);
+        $this->vista->generarCorreoPeritaje($id,$datosCliente0,$datosPeritaje[0]['placa'],$datosEmpresa);
     }
 }
 

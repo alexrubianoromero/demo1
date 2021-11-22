@@ -1,10 +1,10 @@
 <?php
-require_once('../valotablapc.php');
+
 class PeritajesModelo{
 
     public function __construct()
     {
-        echo $tabla3; 
+        // echo $tabla3; 
     }
 
     public function traerPeritajes($conexion){
@@ -122,14 +122,24 @@ class PeritajesModelo{
     }
     public function grabarPropietario($conexion,$request){
         $existeIdentidad = $this->validarPropietario($conexion,$request['identi']);
-        $sql = "INSERT INTO cliente0 (identi,nombre,telefono,direccion,observaci) 
-                VALUES('".$request['identi']."','".$request['nombre']."',
-                '".$request['telefono']."','".$request['direccion']."','".$request['observaciones']."')";
+        $sql = "INSERT INTO cliente0 (identi,nombre,telefono,direccion,observaci,email) 
+                VALUES('".$request['identi']."','".strtoupper($request['nombre'])."',
+                '".$request['telefono']."','".$request['direccion']."','".$request['observaciones']."'
+                ,'".$request['email']."'
+                )";
+        // echo $sql;
+        // die();        
         $consulta = mysql_query($sql,$conexion);   
         $maxId = $this->traerMaxIdCLiente0($conexion);
+        $this->grabar_correo_propietario($conexion,$maxId,$request['email']);
         return $maxId;   
     }
-    
+    public function grabar_correo_propietario($conexion,$id,$email){
+        $sql= "UPDATE cliente0 SET email = '".$email."'
+               WHERE idcliente = '".$id."'  ";
+        $consulta = mysql_query($sql,$conexion);       
+    } 
+
     public function traerMaxIdCLiente0($conexion){
         $sqlId = "SELECT MAX(idcliente)as maxId FROM cliente0 "; 
         // echo  '<br>'.$sqlId;
@@ -140,9 +150,9 @@ class PeritajesModelo{
     } 
     public function grabarVehiculo($conexion,$request){
         $sql = "INSERT INTO carros (placa,propietario,marca,tipo,modelo, color,vencisoat,revision,chasis,motor ) 
-                VALUES('".$request['placa']."','".$request['propietario']."',
-                '".$request['marca']."','".$request['linea']."','".$request['modelo']."',
-                '".$request['color']."','".$request['vencisoat']."','".$request['revision']."',
+                VALUES('".strtoupper($request['placa'])."','".$request['propietario']."',
+                '".strtoupper($request['marca'])."','".strtoupper($request['linea'])."','".strtoupper($request['modelo'])."',
+                '".strtoupper($request['color'])."','".$request['vencisoat']."','".$request['revision']."',
                 '".$request['chasis']."','".$request['motor']."')";
                 $consulta = mysql_query($sql,$conexion);   
                 $maxId = $this->traerMaxIdCarros($conexion);
@@ -167,8 +177,14 @@ class PeritajesModelo{
         // die();
         return $filas;
     }
-            
+    public function traerEmpresa($conexion){
+        $sql = "SELECT * FROM  empresa ORDER BY id_empresa DESC ";
+        $consultaId = mysql_query($sql,$conexion);
+        $arr = mysql_fetch_assoc($consultaId); 
+        return $arr;   
+    }    
+      
 }
         
         
-        ?>
+?>

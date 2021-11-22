@@ -262,6 +262,7 @@ function actualizarDatosPeritaje(id){
             var telefono =  document.getElementById("telefono").value;
             var direccion =  document.getElementById("direccion").value;
             var observaciones =  document.getElementById("observaciones").value;
+            var email =  document.getElementById("email").value;
             const http=new XMLHttpRequest();
             const url = 'index.php';
             http.onreadystatechange = function(){
@@ -279,6 +280,7 @@ function actualizarDatosPeritaje(id){
                         + "&telefono="+telefono
                         + "&direccion="+direccion
                         + "&observaciones="+observaciones
+                        + "&email="+email
                 );
 
                 //aqui debe llamar otra funcion qque busque el ultimo cliente grabado y
@@ -377,6 +379,12 @@ function validacionesPropietario(){
        document.getElementById("direccion").focus();
        return false
     }
+    if(document.getElementById("email").value == 0)
+    {
+       alert("Digite email  ") ;  
+       document.getElementById("email").focus();
+       return false
+    }
     if(document.getElementById("observaciones").value == 0)
     {
        alert("Digite observaciones ") ;  
@@ -445,3 +453,25 @@ function validarIdentidad(identi){
         );
 
 }
+
+function correoPeritaje(id){
+    const http=new XMLHttpRequest();
+    const url = 'index.php';
+    http.onreadystatechange = function(){
+        if(this.readyState == 4 && this.status ==200){
+            console.log(this.responseText);
+            document.getElementById("divAvisosPeritaje").innerHTML = this.responseText;
+        }
+    };
+    http.open("POST",url);
+    http.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+    http.send("opcion=generarCorreoPeritaje"
+            + "&id="+id
+             );
+
+}
+
+// function imprimirPeritaje(){
+// alert('imprimir ');
+//     window.open(url, "Diseño Web", "width=300, height=200");
+// }
