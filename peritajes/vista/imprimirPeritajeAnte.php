@@ -6,19 +6,21 @@ $modelo = new PeritajesModelo();
 $peritaje = $modelo->traerPeritajeId($conexion,$_REQUEST['id']);
 $carro = $modelo->buscarPlaca($conexion,$peritaje[0]['placa']);
 $cliente = $modelo->buscarCliente0Id($conexion,$carro['datos'][0]['propietario']);
-$empresa = $modelo->traerEmpresa($conexion);
+
 // echo '<pre>';
-//        print_r($empresa);
+//        print_r($peritaje);
 //        echo '</pre>';
 ?>
 <!DOCTYPE html>
-<html lang="es"  class"no-js">
+<html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title>Imprimir Peritaje </title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/normalize.css">
-  <link rel="stylesheet" href="../css/style.css">
-  <!-- <link rel="stylesheet" href="../css/styleprueba.css"> -->
+    <!-- <link rel="stylesheet" href="../css/styleprueba.css"> -->
+    <link rel="stylesheet" href="../../css/style.css">
+    <!-- <link rel="stylesheet" href="../../css/bootstrap.min.css">  -->
     <title>Document</title>
     <style>
 /*
@@ -27,32 +29,24 @@ $empresa = $modelo->traerEmpresa($conexion);
     font-size: 50PX;
 }
 */
-.impresion{
-    font-size: 12px;
-}
-#tituloPeritaje{
-    font-size: 30px;     
-}
-#titulo2{
-    font-size: 15px;
-}
     </style>
 </head>
 <body align="center">
 <div align="center" id="impresion">
-    <p id="tituloPeritaje" ><?php echo $empresa['razon_social']  ?></p>
- <table border="1" width="80%"  class="table impresion">
-    <tr>
-        <td align="center" colspan="4"><p id="titulo2">PERITAJE MOTOCICLETA No <?php echo $peritaje[0]['id']  ?> </p></td>
-    </tr>
+    <div class = "pruebita123" >PRUEBA DE CLASE </div>
+    <P id="tituloPeritaje" >MOTOREVOLUCIONES</P>
+ <table border="1" width="80%" class="table" >
      <tr>
-         <td width="20%"><label>PROPIETARIO</label></td>
-         <td width="30%"><?php  echo  strtoupper($cliente['datos'][0]['nombre'])  ?></td>
-         <td width="20%"></td>
-         <td width="30%"></td>
+         <td align="center">PERITAJE MOTOCICLETA No <?php echo $peritaje[0]['id']  ?></td>
+     </tr>
+ </table>
+ <table border="1" width="80%" class="table">
+     <tr>
+         <td><label>PROPIETARIO</td>
+         <td colspan="3"><?php  echo  strtoupper($cliente['datos'][0]['nombre'])  ?></td>
      </tr>
      <tr>
-         <td> <span>MARCA</span>   </td>
+         <td>MARCA</td>
          <td><?php  echo  $carro['datos'][0]['marca']  ?>
          <td>MODELO</td>
          <td><?php  echo  $carro['datos'][0]['modelo']  ?>
@@ -105,19 +99,19 @@ $empresa = $modelo->traerEmpresa($conexion);
          <td></td>
          <td></td>
      </tr>
- <!-- </table>
- <table border="1" width="80%" class="impresion"> -->
-     <tr >
-         <td colspan="4" align="center"><label>OBSERVACIONES</label></td>
+ </table>
+ <table border="1" width="80%" class="table">
+     <tr>
+         <td align="center"><label>OBSERVACIONES</label></td>
      </tr>
      <tr>
-         <td colspan="4"><?php echo $peritaje[0]['observ']   ?></td>
+         <td><?php echo $peritaje[0]['observ']   ?></td>
      </tr>
- <!-- </table>
- <table border="1" width="80%" class="impresion"> -->
+ </table>
+ <table border="1" width="80%" class="table">
      <tr>
-         <td colspan="2" align="left">ELABORO<br><br><br></td>
-         <td colspan="2"align="left">APROBO<br><br><br></td>
+         <td align="left">ELABORO<br><br><br></td>
+         <td align="left">APROBO</td>
      </tr>
  </table>
  </div>

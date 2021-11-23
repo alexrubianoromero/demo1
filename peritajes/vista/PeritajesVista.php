@@ -646,9 +646,9 @@ public function pintarPuntosperitajeModificacion($datosPeritaje)
 
             Placa: '.strtoupper($placa).'  Peritaje No: '.$id.'
 
-            Puedes ver tu orden de reparacion en el siguiente link:
+            Puedes ver tu peritaje en el siguiente link:
 
-            https://www.alexrubiano.com/'.$datosEmpresa['resolucion'].'/peritaje/'.$id.'
+            https://www.alexrubiano.com/'.$datosEmpresa['resolucion'].'/pdf/'.$id.'
 
 
             '.strtoupper($datosEmpresa['razon_social']).'
