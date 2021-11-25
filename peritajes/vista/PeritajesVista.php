@@ -52,7 +52,8 @@ class PeritajesVista{
             echo '<tr>';
             echo '<th>Id</th>'; 
             echo '<th><i class="fas fa-edit"></i></th>'; 
-            echo '<th><i class="fas fa-print"></i></th>'; 
+            echo '<th align="center"><i class="fas fa-print"></i></th>'; 
+            // echo '<th><i class="fas fa-file-pdf"></i></th>'; 
                
             echo '<th>Placa</th>';    
             echo '<th>Fecha</th>';    
@@ -66,10 +67,13 @@ class PeritajesVista{
                     echo '<td><button  onclick="muestreDetallePeritaje('.$peri['id'].')" id="btnverperitaje" class="btn btn-primary" data-toggle="modal" data-target="#myModal2">'.$peri['id'].'</button></td>';
                     echo '<td><button  onclick="editarPeritaje('.$peri['id'].')"><i class="fas fa-edit" data-toggle="modal" data-target="#myModal1"></i></button></td>'; 
                     // echo '<td><button  onclick="imprimirPeritaje('.$peri['id'].')" ><i class="fas fa-edit" >Imp</button></td>'; 
-                    echo '<td><a target="_blanck" href="../peritajes/vista/imprimirPeritaje.php?id='.$peri['id'].' " class="btn btn-Primary"><i class="fas fa-print"></i></a></td>'; 
-                    echo '<td>'.$peri['placa'].'</td>'; 
+                    echo '<td align="center"><a target="_blanck" href="../peritajes/vista/imprimirPeritaje.php?id='.$peri['id'].' " class="btn btn-Primary"><i class="fas fa-print"></i></a>';
+                    // echo '</td>'; 
+                    // echo '<td>';
+                    echo '<a target="_blanck" href="../peritajes/vista/pdfPeritaje.php?id='.$peri['id'].' " class="btn btn-Primary"><i class="fas fa-file-pdf"></i></a></td>'; 
+                    echo '<td>'.strtoupper($peri['placa']).'</td>'; 
                     echo '<td>'.$peri['fecha'] .'</td>'; 
-                    echo '<td>'.$peri['klm'].'</td>'; 
+                    echo '<td>'.number_format($peri['klm'], 0, ',', '.').'</td>'; 
                     // echo '<td>'.$peri['observ'].'</td>'; 
                     echo '</tr>';
                 }
@@ -171,7 +175,8 @@ class PeritajesVista{
         <?
     }
 
-    public function mostrarDatosPlaca($datosPlaca,$datosCliente0){
+    public function mostrarDatosPlaca($datosPlaca,$datosCliente0)
+    {
         ?>
         <div class="row" class="linea">
             <div class=" col-lg-6 col-md-6 col-sm-6 col-xs-12 linea">
@@ -330,7 +335,8 @@ class PeritajesVista{
 
     
     }
-  public function pantallaDatosPeritajeId($datosPeritaje,$datosPlaca,$datosCliente0){
+  public function pantallaDatosPeritajeId($datosPeritaje,$datosPlaca,$datosCliente0)
+  {
       $datosPlaca = $datosPlaca['datos'];
     //   $datosPeritaje = $datosPeritaje['datos'];
     //   echo '<pre>';

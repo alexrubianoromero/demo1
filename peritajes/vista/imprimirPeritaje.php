@@ -16,8 +16,8 @@ $empresa = $modelo->traerEmpresa($conexion);
 <head>
 	<meta charset="UTF-8">
 	<title>Imprimir Peritaje </title>
-    <link rel="stylesheet" href="../css/normalize.css">
-  <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../../css/normalize.css">
+  <link rel="stylesheet" href="../../css/style.css">
   <!-- <link rel="stylesheet" href="../css/styleprueba.css"> -->
     <title>Document</title>
     <style>
