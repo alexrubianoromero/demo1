@@ -17,7 +17,7 @@ class PeritajesVista{
                 <title>Document</title>
             </head>
             <body bgcolor = "#c0c0c0">
-                <div id="div_peritajes" align="center" class="container linea " >
+                <div class="container" id="div_peritajes" align="center" class="container linea " >
                     <br><br>
                     <div id="div_botones_peritaje" class="linea1">
                         <button onclick="nuevoPeritaje();" class="btn btn-primary">NUEVO</button>
@@ -548,7 +548,7 @@ public function pintarPuntosperitajeModificacion($datosPeritaje)
                     </tr>
                     <tr>
                         <td><label>Marca</label></td>
-                        <td> <input type="text" id="marca"></td>
+                        <td> <input type="text" id="marca" ></td>
                     </tr>
                     <tr>
                         <td><label>Linea</label></td>

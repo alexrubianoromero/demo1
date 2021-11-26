@@ -1,7 +1,8 @@
 <?php
-require_once('vista/PeritajesVista.php');
-require_once('modelo/PeritajesModelo.php');
-require_once('../funciones/funciones.class.php');
+$raiz = dirname(dirname(dirname(__file__)));
+require_once($raiz.'/peritajes/vista/PeritajesVista.php');
+require_once($raiz.'/peritajes/modelo/PeritajesModelo.php');
+require_once($raiz.'/funciones/funciones.class.php');
 
 class PeritajesControlador{
     private $vista; 

@@ -1,6 +1,7 @@
 <?php
 require_once('vista/cotizacionesVista.php');
 require_once('modelo/cotizacionesModelo.php');
+require_once('../peritajes/vista/PeritajesVista.php');
 require_once('../peritajes/modelo/PeritajesModelo.php');
 require_once('../funciones/funciones.class.php');
 
@@ -9,6 +10,7 @@ class CotizacionesControlador{
     private $modeloPeritaje;
     private $vista;
     private $conexion;
+    private $vistaPeritaje;
 
     
     public function __construct($conexion){
@@ -16,6 +18,7 @@ class CotizacionesControlador{
         $this->modelo = new cotizacionesModelo();
         $this->modeloPeritaje = new PeritajesModelo();
         $this->vista = new cotizacionesVista();
+        $this->vistaPeritaje = new PeritajesVista();
 
         
         if(!isset($_REQUEST['opcion']) || $_REQUEST['opcion']=='consultar'){
@@ -50,6 +53,18 @@ class CotizacionesControlador{
         if($_REQUEST['opcion']=='generarCorreoCotizacion'){
             $this->generarCorreoCotizacion($this->conexion,$_REQUEST['id']);
         }
+        if($_REQUEST['opcion']=='grabarVehiculo1'){
+            $this->grabarVehiculo($this->conexion,$_REQUEST);
+        }
+        if($_REQUEST['opcion']=='nuevoPropietario'){
+            $this->nuevoPropietario($this->conexion);
+        }
+        if($_REQUEST['opcion']=='grabarPropietario'){
+            $this->grabarPropietario($this->conexion,$_REQUEST);
+        }
+        if($_REQUEST['opcion']=='cargarUltimoPropietario'){
+            $this->cargarUltimoPropietario($this->conexion);
+        }
 
     }
     public function pantallaInicial($conexion){
@@ -72,9 +87,8 @@ class CotizacionesControlador{
             $this->vista->mostrarDatosPlaca($datosPlaca['datos'],$datosCliente0['datos']);
         }
         else{
-            //falta cuadrar si la palca no existe
-            // $propietarios = $this->modeloPeritaje->traerClientes0($conexion);
-            // $this->vista->preguntarDatosPlaca($placa,$propietarios);
+            $propietarios = $this->modeloPeritaje->traerClientes0($conexion);
+            $this->vistaPeritaje->preguntarDatosPlaca($placa,$propietarios);
         }
     }
     public function grabarCotizacion($conexion,$request){
@@ -108,6 +122,21 @@ class CotizacionesControlador{
         $datosCliente0 = $this->modeloPeritaje->buscarCliente0Id($conexion,$datosPlaca['datos'][0]['propietario']);
         $datosEmpresa =  $this->modeloPeritaje->traerEmpresa($conexion);
         $this->vista->generarCorreoCotizacion($id,$datosCliente0,$datosCotizacion[0]['placa'],$datosEmpresa);
+    }
+    public function grabarVehiculo($conexion,$request){
+        $idNuevoCarro = $this->modeloPeritaje->grabarVehiculo($conexion,$request);
+        $this->buscarPlaca($conexion,$request['placa']);
+    }
+    public function nuevoPropietario(){
+        $this->vistaPeritaje->nuevoPropietario();
+    }
+    public function grabarPropietario($conexion,$request){
+        $id = $this->modeloPeritaje->grabarPropietario($conexion,$request);
+        $this->vistaPeritaje->propietarioGrabado();
+    }
+    public function cargarUltimoPropietario($conexion){
+        $maxId = $this->modeloPeritaje->traerMaxIdCLiente0($conexion);
+        funciones::select_general_condicion('cliente0',$conexion,'idcliente','nombre' , $maxId);
     }
 }
 

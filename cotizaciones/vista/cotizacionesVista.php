@@ -18,7 +18,7 @@ class cotizacionesVista{
                 <title>Document</title>
             </head>
             <body bgcolor = "#c0c0c0">
-                <div id="div_peritajes" align="center" class="container linea " >
+                <div  id="div_peritajes" align="center" class="container linea " class="container" >
                     <br><br>
                     <div id="div_botones_peritaje" class="linea1">
                         <button onclick="nuevaCotizacion();" class="btn btn-primary">NUEVA COTIZACION</button>
@@ -33,6 +33,7 @@ class cotizacionesVista{
                 </div>
                 <?php  $this->modal(); ?>
                 <?php  $this->modal1(); ?>
+                <?php  $this->modal3(); ?>
                 <?php  $this->modalItem(); ?>
                 
             </body>
@@ -82,6 +83,31 @@ class cotizacionesVista{
                       <h4 class="modal-title" id="myModalLabel1">Edicion Peritaje</h4>
                   </div>
                   <div id="cuerpoModal1" class="modal-body">
+                      
+                      
+                  </div>
+                  <div class="modal-footer">
+                      <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                      <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+                  </div>
+                  </div>
+              </div>
+          </div>
+        <?php
+    }
+    public function modal3(){
+        ?>
+         <!-- <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal2">
+         Launch demo modal
+         </button> -->
+          <div class="modal fade" id="myModal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+              <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                  <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                      <h4 class="modal-title" id="myModalLabel1">Propietario</h4>
+                  </div>
+                  <div id="cuerpoModal3" class="modal-body">
                       
                       
                   </div>
