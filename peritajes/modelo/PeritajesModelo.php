@@ -121,11 +121,12 @@ class PeritajesModelo{
             $consulta = mysql_query($sql,$conexion);    
     }
     public function grabarPropietario($conexion,$request){
+        $datosEmpresa = $this->traerEmpresa($conexion);
         $existeIdentidad = $this->validarPropietario($conexion,$request['identi']);
-        $sql = "INSERT INTO cliente0 (identi,nombre,telefono,direccion,observaci,email) 
+        $sql = "INSERT INTO cliente0 (identi,nombre,telefono,direccion,observaci,email,id_empresa) 
                 VALUES('".$request['identi']."','".strtoupper($request['nombre'])."',
                 '".$request['telefono']."','".$request['direccion']."','".$request['observaciones']."'
-                ,'".$request['email']."'
+                ,'".$request['email']."','".$datosEmpresa['id_empresa']."'
                 )";
         // echo $sql;
         // die();        
@@ -149,11 +150,13 @@ class PeritajesModelo{
         return $consultaId['maxId'];
     } 
     public function grabarVehiculo($conexion,$request){
-        $sql = "INSERT INTO carros (placa,propietario,marca,tipo,modelo, color,vencisoat,revision,chasis,motor ) 
+        $datosEmpresa = $this->traerEmpresa($conexion);
+        $sql = "INSERT INTO carros (placa,propietario,marca,tipo,modelo, color,vencisoat,revision,chasis
+        ,motor,id_empresa ) 
                 VALUES('".strtoupper($request['placa'])."','".$request['propietario']."',
                 '".strtoupper($request['marca'])."','".strtoupper($request['linea'])."','".strtoupper($request['modelo'])."',
                 '".strtoupper($request['color'])."','".$request['vencisoat']."','".$request['revision']."',
-                '".$request['chasis']."','".$request['motor']."')";
+                '".$request['chasis']."','".$request['motor']."' ,'".$datosEmpresa['id_empresa']."'  )";
                 $consulta = mysql_query($sql,$conexion);   
                 $maxId = $this->traerMaxIdCarros($conexion);
                 // echo '<br>'.$maxId;
@@ -183,7 +186,7 @@ class PeritajesModelo{
         $arr = mysql_fetch_assoc($consultaId); 
         return $arr;   
     }    
-      
+
 }
         
         

@@ -477,41 +477,43 @@ class cotizacionesVista{
     }
 
     public function generarCorreoCotizacion($id,$datosCliente0,$placa,$datosEmpresa){
-        if($datosEmpresa['resolucion']==''){
-            echo 'Se debe configurar la carpeta del servidor en la tabla de empresa '; 
-            die();
-        }
-        else{
+
+        // if($datosEmpresa['resolucion']==''){
+        //     echo 'Se debe configurar la carpeta del servidor en la tabla de empresa '; 
+        //     die();
+        // }
+        // else{
             // echo '<pre>';
             // print_r($datosEmpresa);
             // echo '</pre>';
             // die();  
-
+            $carpeta = $this->traerCarpetaPrograma();
+            // echo $carpeta ; 
+            // die();    
             $body = '
-
+            
             '.strtoupper($datosEmpresa['razon_social']).'
             
             Te informa que el documento de tu COTIZACION lo puedes ver en el siguiente link
-
+            
             Placa: '.strtoupper($placa).'  COTIZACION No: '.$id.'
-
+            
             Puedes ver tu cotizacion en el siguiente link:
-
-            https://www.alexrubiano.com/'.$datosEmpresa['resolucion'].'/pdfCotizacion/'.$id.'
-
-
+            
+            https://www.alexrubiano.com/'.$carpeta.'/pdfCotizacion/'.$id.'
+            
+            
             '.strtoupper($datosEmpresa['razon_social']).'
             Taller 
-            
+            Telefono '.$datosEmpresa['telefonos'].'
             O envianos un E-mail a '.$datosEmpresa['email_empresa'].'
             Recuerda, estamos ubicados en '.$datosEmpresa['direccion'].'';  
-
-
+            
+            
             $asunto = 'COTIZACION';
             $this->enviarCorreoPeritaje($body,$datosCliente0['datos'][0]['email'],$datosEmpresa,$asunto);
-
             echo '<p class="avisoazul">Se envio correo con la Cotizacion al email del cliente </p>';
-        }    
+        // }    
     }
     public function enviarCorreoPeritaje($body,$email,$datosEmpresa,$asunto){
         // echo '<br>'.$headers;
@@ -524,8 +526,15 @@ class cotizacionesVista{
         mail($email,$asunto,$body,$headers); 
     }
 
+    public function traerCarpetaPrograma(){
+        $direccion =  dirname(dirname(dirname(__file__)));
+        $partes = explode("/", $direccion);
+        $tamano = count($partes);
+        return  $partes[$tamano-1]; 
+    }
+    
   
-
+    
 }
 
 

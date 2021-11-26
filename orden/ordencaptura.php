@@ -88,15 +88,15 @@ inner join $tabla3 as cli on (cli.idcliente = car.propietario)
   and cli.id_empresa = '".$_SESSION['id_empresa']."'
  ";
  
- //echo '<br>'.$sql_placas;
+ echo '<br>'.$sql_placas;
 $datos = mysql_query($sql_placas,$conexion);
 $datos = get_table_assoc($datos);
-/*
+
 echo '<pre>';
 print_r($datos);
 echo '</pre>';
 exit();
-*/
+
 
 
 

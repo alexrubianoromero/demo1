@@ -125,6 +125,8 @@ public static function select_general_condicion($tabla,$conexion,$campo1,$campo2
        }//fin del while
       } //fin ed la funcion  
   
+   
+         
 
 }
 
